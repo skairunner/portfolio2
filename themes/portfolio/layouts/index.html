@@ -1,0 +1,19 @@
+{{ define "head" }}
+	{{ partial "sass.html" (dict "context" . "src" "index.scss") }}
+	<title>Skye Im | Portfolio</title>
+{{ end }}
+
+{{ define "main" }}
+	<div id="content">{{ .Content }}</div>
+	<div id="projects">
+	{{ range (.GetPage "/projects").Pages}}
+		<div class="tile">
+			<div class="project">
+				<div class="project_thumb borderedimage"><a href="{{ .RelPermalink }}"><img src="/{{ .Params.thumb }}" /></a></div>
+				<div class="project_name"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+				<div class="project_summary">{{ .Params.summary }}</div>
+			</div>
+		</div>
+	{{ end }}
+	</div>
+{{ end }}

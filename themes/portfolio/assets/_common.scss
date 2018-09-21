@@ -1,0 +1,41 @@
+$headingfont: "Raleway", "Open Sans", sans-serif;
+$bodyfont: "Open Sans";
+$linkcolor: #666;
+$linkcolor_visited: #111;
+$tile_border: 1px solid rgba(0, 0, 0, .4);
+
+h1 {
+    font-family: $headingfont;
+}
+
+h2 {
+    font-family: $headingfont;
+}
+
+body {
+    font-family: $bodyfont;
+    font-size: 14pt;
+    color: #222;
+}
+
+a {
+    color: $linkcolor;
+}
+
+a:visited {
+    color: $linkcolor_visited;
+}
+
+.borderedimage {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#mainwrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    margin: 0 1vw;
+}

@@ -1,0 +1,5 @@
+<!--Provide dictionary option 'src'-->
+{{ $sass := resources.Get .src }}
+{{ $options := (dict "outputStyle" "compressed") }}
+{{ $styles := $sass | resources.ToCSS $options | resources.Fingerprint "sha512" }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>

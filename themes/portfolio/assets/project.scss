@@ -1,0 +1,32 @@
+@import "common";
+
+#mainwrapper {
+    border-top: $tile_border;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2vw;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+
+.imageholder {
+    width: 90%;
+    max-width: 700px; 
+}
+
+.imageholder img {
+    width: 100%;
+}
+
+.explanation {
+    max-width: 800px;
+    margin: 0 1vw;
+}

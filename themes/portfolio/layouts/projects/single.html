@@ -1,0 +1,12 @@
+{{ define "head" }}
+	{{ partial "sass.html" (dict "context" . "src" "project.scss") }}
+	<title>{{ printf "%s %s" .Params.title "| Skye Im" }} </title>
+{{ end }}
+
+{{ define "main" }}
+	<div id="content">
+		<div class="title"><a href="{{ .Params.link }}">{{ .Title }}</a></div>
+		<div class="imageholder"><img class="borderedimage" src="/{{ .Params.img }}" /></div>
+		<div class="explanation">{{ .Content }}</div>
+	</div>
+{{ end }}
