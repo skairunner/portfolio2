@@ -5,8 +5,33 @@
 
 {{ define "main" }}
 	<div id="content">
-		<div class="title"><a href="{{ .Params.link }}">{{ .Title }}</a></div>
+		<div class="title">{{ .Title }}</div>
 		<div class="imageholder"><img class="borderedimage" src="/{{ .Params.img }}" /></div>
-		<div class="explanation">{{ .Content }}</div>
+		{{ if .Params.caption }}
+			<div class="caption">{{ .Params.caption }}</div>
+		{{ end }}
+		<div id="links">
+			{{ if ne .Params.link "#" }}
+			<div class="linkbutton" onclick="window.location.href = {{ .Params.link }}">Link</div>
+			{{ end }}
+			{{ if .Params.github }}
+			<div class="linkbutton" onclick="window.location.href = {{ .Params.githuburl }}">Github</div>
+			{{ end }}
+			{{ if .Params.report }}
+			<div class="linkbutton" onclick="window.location.href = {{ .Params.report }}">Report</div>
+			{{ end }}
+		</div>
+		<div id="main">
+			<div class="sidebarwrapper">
+				<div class="sidebar">
+					<div><span class="field">Platform:</span> <span class="fieldanswer">{{ .Params.platform }}</span></div>
+					{{ partial "sidebar-delimited.html" (dict "context" . "entryname" "Languages" "entrydata" .Params.languages) }}
+					{{ partial "sidebar-delimited.html" (dict "context" . "entryname" "Tech" "entrydata" .Params.tech) }}
+					<div><span class="field">Team size:</span> <span class="fieldanswer">{{ .Params.teamsize }}</span></div>
+					<div><span class="field">Role:</span> <span class="fieldanswer">{{ .Params.role }}</span></div>
+				</div>
+			</div>
+			<div class="explanation">{{ .Content }}</div>
+		</div>
 	</div>
 {{ end }}

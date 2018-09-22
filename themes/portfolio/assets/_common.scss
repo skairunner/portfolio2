@@ -1,8 +1,10 @@
 $headingfont: "Raleway", "Open Sans", sans-serif;
 $bodyfont: "Open Sans";
-$linkcolor: #666;
+$linkcolor: #555;
 $linkcolor_visited: #111;
 $tile_border: 1px solid rgba(0, 0, 0, .4);
+$accentcolor: #ff641e;
+$accenthover: #FF4F00;
 
 h1 {
     font-family: $headingfont;
@@ -16,6 +18,7 @@ body {
     font-family: $bodyfont;
     font-size: 14pt;
     color: #222;
+    line-height: 1.5;
 }
 
 a {
@@ -24,6 +27,10 @@ a {
 
 a:visited {
     color: $linkcolor_visited;
+}
+
+a:hover {
+    color: black;
 }
 
 .borderedimage {
@@ -38,4 +45,5 @@ a:visited {
 
 #header {
     margin: 0 1vw;
+    cursor: pointer;
 }

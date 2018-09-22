@@ -2,12 +2,17 @@
 title: "Jeeves Course Planner"
 date: 2018-09-15T14:47:41-04:00
 
+caption: "Jeeves in use."
 github: true
 githuburl: "https://github.com/skairunner/JeevesCoursePlanner"
 img: "jeeves.png"
 link: "http://jeeves.skye.tech/"
 summary: "Visual course-planning webapp for NYU"
-tech: ["javascript", "d3", "python"]
+languages: ["typescript", "python"]
+role: "Main developer"
+platform: "Web"
+teamsize: "1+"
+tech: ["d3"]
 thumb: "jeeves.thumb.png"
 ---
 
