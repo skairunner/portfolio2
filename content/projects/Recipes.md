@@ -2,19 +2,19 @@
 title: "Recipe recommender"
 date: 2016-11-15T14:47:41-04:00
 
+caption: "A typical usage of the webapp. Given four ingredients, recipes that can be made with some combination of said ingredients are displayed."
 github: false
 img: "recipes.png"
+languages: ["javascript", "python"]
 link: "#"
-summary: "Recipe recommending depending on ingredients"
-tech: ["javascript", "d3", "python", "sql"]
+platform: "Web"
+summary: "Recipe recommending by ingredients owned"
+role: "Team leader, developer"
+tech: ["d3", "SQL"]
+teamsize: "3"
 thumb: "recipes.thumb.png"
 ---
 
-Created in a hackathon along with 2 other teammates. This web app takes a list of ingredients you have on hand, and searches for a recipe you can create either using only ingredients you have, or those you can make with *n* extra ingredients, where *n* can be provided by the user.
+Recipe Recommender (RR) is a web-app that finds recipes. In particular, it takes into consideration the ingredients the user already has, helping the user find recipes to make while only additionally purchasing a few more ingredients.
 
-My contribution to the project was the client and the backend infrastructure.
-
-* SQLite to create a database API for my other teammates to use
-* queries and abstracted into a set of functions, so that when we migrate to a different database such as PostgreSQL, only the API internals will need to change.
-* A webserver using Cherrypy, to serve the files and handle search requests
-* d3 for DOM manipulations, data representation, and dynamic pages.
+RR was created during Hack Shanghai, hosted at NYU Shanghai, with a team of 3. My contribution to the project was the client and the backend infrastructure. We used SQLite to store data, with an internal API to allow switching SQLite with a different SQL implementation such as PostgreSQL. I also implemented an ingredient "stemming" algorithm, which treated similar ingredients as one--e.g. *a can of peas* and *fresh peas* becomes a single *peas* for the purposes of the search.

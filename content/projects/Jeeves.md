@@ -12,14 +12,12 @@ languages: ["typescript", "python"]
 role: "Main developer"
 platform: "Web"
 teamsize: "1+"
-tech: ["d3"]
+tech: ["d3", "yarn", "selenium"]
 thumb: "jeeves.thumb.png"
 ---
 
-Jeeves Course Planner is a tool built for students at New York University to help them select courses.
+Jeeves Course Planner is a web-app and tool built for students at New York University to help select courses. It includes the ability to quickly filter courses, check time conflicts, and preview a schedule on a calendar. It was created in response to the school-provided alternative, Albert. Albert is built on a technology stack vendored by Oracle and displays a lack of quick filtering, no way to visually compare schedules, and sluggish response times, which adds up to a poor user experience--every interaction is an AJAX request, including simple things like expanding course descriptions.
 
-NYU's course selection tool, Albert, has many flaws. Chief among them are a lack of quick filtering, no way to visually compare schedules, and sluggish response times. I used Selenium to extract data from Albert, Python to index and process the data, and Typescript/d3.js for the frontend.
+The web-app is written in Typescript, using d3.js for manipulating the DOM. The app uses Yarn to build and manage dependencies. The data is extracted from Albert using a script that controls Selenium, which also subsequently processes and cleans the data for consumption by the client. 
 
-I have maintained Albert for 3 years circa late 2017. For the most recent class registration session, Google Analytics confirms that I had 509 unique users and 1300 sessions over a period of 2 months. Because the userbase for Jeeves has a uniquely high ratio of users who use adblocking programs, my real userbase is likely around 700.
-
-Because Jeeves is open source, I was able to gain contributions from classmates to fix bugs or improve UI.
+I have maintained Albert for 3 years circa late 2018. For the most recent class registration session, Google Analytics confirms that I had 509 unique users and 1300 sessions over a period of 2 months. Because the userbase for Jeeves has a uniquely high ratio of users who use adblocking programs, my real userbase is likely around 700. Jeeves is a free and open source program, and I have received contributions from classmates to fix bugs or implement features.
