@@ -1,6 +1,7 @@
 {{ define "head" }}
 	{{ partial "sass.html" (dict "context" . "src" "project.scss") }}
-	<title>{{ printf "%s %s" .Params.title "| Skye Im" }} </title>
+	<title>{{ printf "%s %s" "Skye Im | " .Params.title }} </title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 {{ end }}
 
 {{ define "main" }}
@@ -12,7 +13,7 @@
 		{{ end }}
 		<div id="links">
 			{{ if ne .Params.link "#" }}
-			<div class="linkbutton" onclick="window.location.href = {{ .Params.link }}">Link</div>
+			<div class="linkbutton" onclick="window.location.href = {{ .Params.link }}">Demo</div>
 			{{ end }}
 			{{ if .Params.github }}
 			<div class="linkbutton" onclick="window.location.href = {{ .Params.githuburl }}">Github</div>
