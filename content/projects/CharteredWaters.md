@@ -5,13 +5,13 @@ date: 2014-06-05T14:47:41-04:00
 github: true
 githuburl: "https://github.com/skairunner/ChartedWaters"
 img: "charteredwaters.png"
-languages: ["javascript", "python", "C#"]
+languages: ["C++"]
 link: "#"
-platform: "Web"
+platform: "Desktop"
 role: "Developer"
 summary: "Procedurally generated age of sail game"
 teamsize: "1"
-tech: ["libtcod", "C++"]
+tech: ["libtcod"]
 thumb: "charteredwaters.thumb.png"
 ---
 
