@@ -13,21 +13,21 @@
 		{{ end }}
 		<div id="links">
 			{{ if ne .Params.link "#" }}
-			<div class="linkbutton" onclick="window.location.href = {{ .Params.link }}">Demo</div>
+			<a href="{{ .Params.link }}"><div class="linkbutton">Demo</div></a>
 			{{ end }}
 			{{ if .Params.github }}
-			<div class="linkbutton" onclick="window.location.href = {{ .Params.githuburl }}">Github</div>
+			<a href="{{ .Params.githuburl }}"><div class="linkbutton">Github</div></a>
 			{{ end }}
 			{{ if .Params.report }}
-			<div class="linkbutton" onclick="window.location.href = {{ .Params.report }}">Report</div>
+			<a href="{{ .Params.report }}"><div class="linkbutton">Report</div></a>
 			{{ end }}
 		</div>
 		<div id="main">
 			<div class="sidebarwrapper">
 				<div class="sidebar">
 					<div><span class="field">Platform:</span> <span class="fieldanswer">{{ .Params.platform }}</span></div>
-					{{ partial "sidebar-delimited.html" (dict "context" . "entryname" "Languages" "entrydata" .Params.languages) }}
-					{{ partial "sidebar-delimited.html" (dict "context" . "entryname" "Tech" "entrydata" .Params.tech) }}
+					<div>{{ partial "sidebar-delimited.html" (dict "context" . "entryname" "Languages" "entrydata" .Params.languages) }}</div>
+					<div>{{ partial "sidebar-delimited.html" (dict "context" . "entryname" "Tech" "entrydata" .Params.tech) }}</div>
 					<div><span class="field">Team size:</span> <span class="fieldanswer">{{ .Params.teamsize }}</span></div>
 					<div><span class="field">Role:</span> <span class="fieldanswer">{{ .Params.role }}</span></div>
 				</div>

@@ -5,6 +5,7 @@ $linkcolor_visited: #111;
 $tile_border: 1px solid rgba(0, 0, 0, .4);
 $accentcolor: #ff641e;
 $accenthover: #FF4F00;
+$border_width_margin: 2vw;
 
 h1 {
     font-family: $headingfont;
@@ -46,13 +47,17 @@ a:hover {
 #header {
     margin: 0 1vw;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
 }
 
 #footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 1.5vw;
+    margin: 0 $border_width_margin;
     border-top: $tile_border;
 }
 
@@ -60,5 +65,5 @@ a:hover {
     font-size: 16px;
     font-family: $headingfont;
     color: #666;
-    margin: 2vh 0;
+    padding: 2vh 0;
 }

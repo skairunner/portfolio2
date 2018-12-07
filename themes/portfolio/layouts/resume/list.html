@@ -1,0 +1,48 @@
+{{ define "head" }}
+	{{ partial "sass.html" (dict "context" . "src" "resume.scss") }}
+	<title>Skye Im | Portfolio</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+{{ end }}
+
+{{ define "main" }}
+<div class="content">
+    <div class="resumesummary">
+        <div>{{ .Content }}</div>
+        <div class="langs skills">
+            {{ partial "sidebar-delimited.html" (dict "context" . "entryname" "Languages" "entrydata" .Params.languages) }}
+        </div>
+        <div class="stacktech skills">
+            {{ partial "sidebar-delimited.html" (dict "context" . "entryname" "Web technology" "entrydata" .Params.stacktech) }}
+        </div>
+        <div class="libstools skills">
+            {{ partial "sidebar-delimited.html" (dict "context" . "entryname" "Libs & tools" "entrydata" .Params.libstools) }}
+        </div>
+    </div>
+</div>
+<div class="workheadercontainer">
+    <div class="workheader"><h2>Work experience</h2></div>
+</div>
+<div class="content">
+    <div class="entries">
+        {{ range .Pages}}
+        <div class="entrycontainer">
+            <div class="entry">
+                <div class="jobheading">
+                    <span class="workplace">{{ .Params.workplace }}:</span>
+                    <span class="position">{{ .Params.position }}</span>
+                </div>
+                <div class="times">
+                    <span class="date"> {{ dateFormat "January 2006" .Params.date }}</span>
+                    —
+                    <span class="date">{{ dateFormat "January 2006" .Params.enddate }}</span>
+                </div>
+                <div class="summary">
+                    {{ .Params.summary }}
+                </div>
+            </div>
+            <hr class="entrysep">
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }} 

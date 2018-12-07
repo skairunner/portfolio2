@@ -1,0 +1,73 @@
+@import "common";
+
+#mainwrapper {
+    border-top: $tile_border;
+    margin: 0 $border_width_margin;
+}
+
+.content {
+    margin: 2vh 3vw;
+    width: 100%;
+}
+
+.resumesummary {
+    padding-left: 4vw;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.workheadercontainer {
+    width: 100%;
+}
+
+.workheader {
+    border-bottom: $tile_border;
+    font-variant: small-caps;
+    padding-top: 16pt;
+    padding-left: 1em;
+}
+
+.entrycontainer > hr {
+    width: 4em;
+}
+
+.entrycontainer:last-child > hr {
+    display: none;
+}
+
+.entries {
+    padding: 0 4vw;
+}
+
+.entry {
+    padding: 3vh 0;
+}
+
+.label {
+    font-weight: 600;
+}
+
+.workplace {
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+.times {
+    line-height: 1;
+    margin-bottom: 1vh;
+}
+
+.date {
+    font-size: 12pt;
+    font-style: italic;
+}
+
+.summary {
+    line-height: 1.5;
+    width: 100%;
+}

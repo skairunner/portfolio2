@@ -1,9 +1,8 @@
-<div>
-    <span class="field">{{ .entryname }}:</span>
-    <span class="fieldanswer">
-    {{ if .entrydata }}
-        {{ delimit .entrydata ", " }}
-    {{ else }}
-        {{ "" }}
-    {{ end }} </span>
-</div>
+<span class="label">{{ .entryname }}:</span>
+<span class="fieldanswer">
+{{ if .entrydata }}
+    {{ delimit .entrydata ", " }}
+{{ else }}
+    {{ "" }}
+{{ end }}
+</span>
