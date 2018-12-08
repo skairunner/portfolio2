@@ -25,11 +25,11 @@
 		<div id="main">
 			<div class="sidebarwrapper">
 				<div class="sidebar">
-					<div><span class="field">Platform:</span> <span class="fieldanswer">{{ .Params.platform }}</span></div>
+					<div><span class="field"><strong>Platform:</strong></span> <span class="fieldanswer">{{ .Params.platform }}</span></div>
 					<div>{{ partial "sidebar-delimited.html" (dict "context" . "entryname" "Languages" "entrydata" .Params.languages) }}</div>
 					<div>{{ partial "sidebar-delimited.html" (dict "context" . "entryname" "Tech" "entrydata" .Params.tech) }}</div>
-					<div><span class="field">Team size:</span> <span class="fieldanswer">{{ .Params.teamsize }}</span></div>
-					<div><span class="field">Role:</span> <span class="fieldanswer">{{ .Params.role }}</span></div>
+					<div><span class="field"><strong>Team size:</strong></span> <span class="fieldanswer">{{ .Params.teamsize }}</span></div>
+					<div><span class="field"><strong>Role:</strong></span> <span class="fieldanswer">{{ .Params.role }}</span></div>
 				</div>
 			</div>
 			<div class="explanation">{{ .Content }}</div>
