@@ -6,7 +6,7 @@
 
 {{ define "main" }}
 	<div id="content">
-		<div class="title">{{ .Title }}</div>
+		<div class="title">{{ .Title }} ({{ dateFormat "2006" .Params.date }})</div>
 		<div class="imageholder"><img class="borderedimage" src="/{{ .Params.img }}" /></div>
 		{{ if .Params.caption }}
 			<div class="caption">{{ .Params.caption }}</div>
