@@ -26,8 +26,8 @@
 			<div class="sidebarwrapper">
 				<div class="sidebar">
 					<div><span class="field"><strong>Platform:</strong></span> <span class="fieldanswer">{{ .Params.platform }}</span></div>
-					<div>{{ partial "sidebar-delimited.html" (dict "context" . "entryname" "Languages" "entrydata" .Params.languages) }}</div>
-					<div>{{ partial "sidebar-delimited.html" (dict "context" . "entryname" "Tech" "entrydata" .Params.tech) }}</div>
+					<div class="sidebar-element">{{ partial "sidebar-filter-by-language.html" (dict "data" $.Site.Data.taxonomies "tags" .Params.technologies) }}</div>
+					<div class="sidebar-element">{{ partial "sidebar-filter-by-language.html" (dict "reverse" true "name" "Techs" "data" $.Site.Data.taxonomies "tags" .Params.technologies) }}</div>
 					<div><span class="field"><strong>Team size:</strong></span> <span class="fieldanswer">{{ .Params.teamsize }}</span></div>
 					<div><span class="field"><strong>Role:</strong></span> <span class="fieldanswer">{{ .Params.role }}</span></div>
 				</div>

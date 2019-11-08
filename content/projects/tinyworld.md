@@ -12,7 +12,8 @@ platform: "Web"
 role: "Procedural generation developer"
 summary: "Procedural 3D landscape"
 teamsize: "3"
-tech: ["three.js"]
+technologies: ["javascript", "three.js"]
+categories: ["graphics", "game dev", "simulation"]
 thumb: "terraingen.thumb.png"
 ---
 

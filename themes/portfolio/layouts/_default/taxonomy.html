@@ -1,0 +1,16 @@
+{{ define "head" }}
+	{{ partial "sass.html" (dict "context" . "src" "project.scss") }}
+	<title>{{ printf "%s %s" "Skye Im | " .Data.Plural }} </title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+{{ end }}
+
+{{ define "main" }}
+
+<ul>
+  {{ range .Data.Pages }}
+    <li>
+      <a href="{{.RelPermalink}}">{{ .Title }}</a>
+    </li>
+  {{ end }}
+</ul>
+{{ end }}

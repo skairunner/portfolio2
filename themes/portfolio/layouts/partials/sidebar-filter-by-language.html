@@ -1,0 +1,27 @@
+<span class="label"><strong>
+    {{ if .name }}
+        {{ .name }}
+    {{ else }}
+        Languages
+    {{ end }}
+</strong></span>
+
+<span class="fieldanswer tags">
+{{ if . }}
+    {{ $filtered := slice }}
+    {{ range .tags }}
+        {{ if ne $.reverse nil }}
+            {{ if not (in $.data.languages . )  }}
+                {{ $filtered = $filtered | append . }}
+            {{ end }}
+        {{ else if (in $.data.languages . ) }}
+            {{ $filtered = $filtered | append . }}
+        {{ end }}
+    {{ end }}
+    {{ range $filtered }}
+        {{ partial "pill.html" (dict "tag" . "taxonomy" "technologies" "prettynames" $.data.prettynames) }}
+    {{ end }}
+{{ else }}
+    {{ "" }}
+{{ end }}
+</span>

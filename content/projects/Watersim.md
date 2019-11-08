@@ -12,7 +12,8 @@ platform: "Desktop"
 role: "Developer"
 summary: "Virtual pipes-based water erosion sim"
 teamsize: "2"
-tech: ["allegro", "DX11"]
+categories: ["graphics", "simulation"]
+technologies: ["c++", "dx11"]
 thumb: "watersim.thumb.png"
 ---
 

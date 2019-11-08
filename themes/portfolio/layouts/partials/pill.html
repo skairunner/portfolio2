@@ -1,0 +1,6 @@
+<!---- Create a nice little pill tag that links to the taxonomy page. Pass a dict { tag: term, taxonomy: taxonomyName prettynames: <prettynames dict> } --->
+<span class="pill {{ .taxonomy }}" data-category="{{ .tag }}">
+    <a href="/{{ urlize .taxonomy }}/{{ urlize .tag }}">
+        {{ index .prettynames (urlize .tag ) }}
+    </a>
+</span>

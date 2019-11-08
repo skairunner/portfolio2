@@ -1,5 +1,5 @@
 ---
-title: "Distributed Cracker"
+title: "Distributed Password Cracker"
 date: 2017-12-15T14:47:41-04:00
 
 github: true
@@ -12,7 +12,8 @@ role: "Developer"
 summary: "Distributed threaded password cracker"
 platform: "Linux/Ubuntu"
 teamsize: "1"
-tech: ["POSIX"]
+categories: ["distributed systems"]
+tech: ["C", "POSIX"]
 thumb: "dcp.thumb.png"
 ---
 

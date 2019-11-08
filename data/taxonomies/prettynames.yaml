@@ -1,0 +1,30 @@
+# technologies
+bootstrap: Bootstrap
+c: C
+c-sharp: C#
+c++: C++
+d3: d3.js
+discord.py: discord.py
+django: Django
+dx11: DirectX 11
+elasticsearch: Elasticsearch
+javascript: Javascript
+jquery: jQuery
+libtcod: libtcod
+oauth2: OAuth 2
+postgresql: Postgres
+python: Python
+selenium: Selenium
+sql: SQL
+three.js: three.js
+yarn: yarn
+
+# Categories
+distributed-systems: Distributed systems
+educational: Educational
+full-stack: Full stack
+game-dev: Game dev
+graphics: Graphics
+infoviz: Infoviz
+simulation: Simulation
+web-dev: Web dev

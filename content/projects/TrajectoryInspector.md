@@ -12,7 +12,8 @@ report: "/trajectory-inspector.pdf"
 role: "Research, developer"
 summary: "Data vis project to map major physical airways"
 teamsize: "1"
-tech: ["d3", "SQL"]
+technologies: ["d3", "javascript", "c-sharp", "sql"]
+categories: ["infoviz", "web dev"]
 thumb: "trajectoryinspector.thumb.png"
 ---
 

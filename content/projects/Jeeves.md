@@ -12,7 +12,8 @@ languages: ["typescript", "python"]
 role: "Main developer"
 platform: "Web"
 teamsize: "1+"
-tech: ["d3", "yarn", "selenium"]
+technologies: ["d3", "javascript", "yarn", "selenium"]
+categories: ["full stack"]
 thumb: "jeeves.thumb.png"
 ---
 

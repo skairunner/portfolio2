@@ -11,7 +11,8 @@ platform: "Desktop"
 role: "Developer"
 summary: "Procedurally generated age of sail game"
 teamsize: "1"
-tech: ["libtcod"]
+technologies: ["c++", "libtcod"]
+categories: ["game dev", "simulation"]
 thumb: "charteredwaters.thumb.png"
 ---
 

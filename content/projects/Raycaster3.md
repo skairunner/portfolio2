@@ -7,6 +7,8 @@ github: true
 githuburl: "https://github.com/skairunner/raycaster3"
 img: "raycaster3.png"
 languages: ["python"]
+technologies: ["python"]
+categories: ["graphics", "game dev", "simulation"]
 link: "#"
 platform: "Desktop"
 role: "Developer"

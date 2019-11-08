@@ -12,7 +12,8 @@ platform: "Web"
 summary: "Interactive grammar-teaching tool"
 role: "Team leader, developer"
 teamsize: 11
-tech: ["d3", "bootstrap", "jquery"]
+categories: ["full stack", "educational"]
+technologies: ["d3", "javascript", "bootstrap", "jquery"]
 thumb: "tarakeeb.thumb.png"
 ---
 

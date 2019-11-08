@@ -3,8 +3,9 @@ $bodyfont: "Open Sans";
 $linkcolor: #555;
 $linkcolor_visited: #111;
 $tile_border: 1px solid rgba(0, 0, 0, .4);
-$accentcolor: #ff641e;
-$accenthover: #FF4F00;
+$accentcolor: #e65019;
+$accenthover: #d43900;
+$lightfontcolor: #fffafa;
 $border_width_margin: 2vw;
 
 h1 {
@@ -20,6 +21,7 @@ body {
     font-size: 14pt;
     color: #222;
     line-height: 1.5;
+    background-color: #FFFAFA;
 }
 
 a {
@@ -66,4 +68,23 @@ a:hover {
     font-family: $headingfont;
     color: #666;
     padding: 2vh 0;
+}
+
+.pill {
+	background-color: $accentcolor;
+	color: $lightfontcolor;
+    padding: 0.2rem 0.3rem;
+    margin: 0.1rem;
+    border-radius: 10px;
+    
+    & a {
+        color: inherit;
+    }
+}
+
+.tags {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }

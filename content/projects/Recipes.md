@@ -10,7 +10,8 @@ link: "#"
 platform: "Web"
 summary: "Recipe recommending by ingredients owned"
 role: "Team leader, developer"
-tech: ["d3", "SQL"]
+categories: ["full stack"]
+technologies: ["d3", "javascript", "python", "sql"]
 teamsize: "3"
 thumb: "recipes.thumb.png"
 ---
