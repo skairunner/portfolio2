@@ -1,6 +1,13 @@
 <div id="headercontainer" onclick="window.location.href = '/'">
     <div id="header">
         <h1>Skye Im</h1>
+        {{ if eq (string (.Permalink | relURL)) "/" }}
+            <a class="current-page">Portfolio</a>
+        {{ else }}
+            <a href='/'>Portfolio</a>
+        {{ end }}
         <a href='/resume.pdf'>Resume</a>
+        <a href='/categories'>By category</a>
+        <a href='/technologies'>By technology</a>
     </div>
 </div>

@@ -1,0 +1,29 @@
+{{/* Invoke with the following parameters:
+
+    pages: the list of Page to display
+    hiddenTaxonomies: the taxonomy(s) to omit
+ */}}
+
+<div class="projects">
+    {{ range .pages}}
+        <div class="tile">
+            <div class="project">
+                <div class="project_thumb borderedimage"><a href="{{ .RelPermalink }}"><img src="/{{ .Params.thumb }}" /></a></div>
+                <div class="project_name"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+                <div class="project_summary">{{ .Params.summary }}</div>
+                <div class="tags">
+                    {{ if not (in $.hiddenTaxonomies "technologies") }}
+                        {{ range .Params.technologies }}
+                            {{ partial "pill.html" (dict "taxonomy" "technologies" "tag" . "prettynames" $.context.Site.Data.taxonomies.prettynames ) }}
+                        {{ end }}
+                    {{ end }}
+                    {{ if not (in $.hiddenTaxonomies "categories") }}
+                        {{ range .Params.categories }}
+                            {{ partial "pill.html" (dict "taxonomy" "categories" "tag" . "prettynames" $.context.Site.Data.taxonomies.prettynames ) }}
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    {{ end }}
+</div>

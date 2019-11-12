@@ -27,8 +27,10 @@
 				<div class="sidebar">
 					<div><span class="field"><strong>Platform:</strong></span> <span class="fieldanswer">{{ .Params.platform }}</span></div>
 					<div class="sidebar-element">{{ partial "sidebar-filter-by-language.html" (dict "data" $.Site.Data.taxonomies "tags" .Params.technologies) }}</div>
-					<div class="sidebar-element">{{ partial "sidebar-filter-by-language.html" (dict "reverse" true "name" "Techs" "data" $.Site.Data.taxonomies "tags" .Params.technologies) }}</div>
+					<div class="sidebar-element">{{ partial "sidebar-filter-by-language.html" (dict "reverse" true "name" "Technologies" "data" $.Site.Data.taxonomies "tags" .Params.technologies) }}</div>
+					{{ if gt .Params.teamsize 1 }}
 					<div><span class="field"><strong>Team size:</strong></span> <span class="fieldanswer">{{ .Params.teamsize }}</span></div>
+					{{ end }}
 					<div><span class="field"><strong>Role:</strong></span> <span class="fieldanswer">{{ .Params.role }}</span></div>
 				</div>
 			</div>
