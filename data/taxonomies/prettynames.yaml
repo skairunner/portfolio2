@@ -18,6 +18,7 @@ selenium: Selenium
 sql: SQL
 three.js: three.js
 yarn: yarn
+markdown: Markdown
 
 # Categories
 distributed-systems: Distributed systems
@@ -28,3 +29,4 @@ graphics: Graphics
 infoviz: Infoviz
 simulation: Simulation
 web-dev: Web dev
+library: Library

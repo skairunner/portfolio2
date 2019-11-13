@@ -7,7 +7,10 @@
 {{ define "main" }}
 	<div id="content">
 		<div class="title">{{ .Title }} ({{ dateFormat "2006" .Params.date }})</div>
-		<div class="imageholder"><img class="borderedimage" src="/{{ .Params.img }}" /></div>
+		<div class="imageholder"><img class="borderedimage" src="/{{ .Params.img }}"
+			{{ if ne .Params.imgWidth nil }}
+				style="max-width: {{ .Params.imgWidth }}px;"
+			{{ end }} /></div>
 		{{ if .Params.caption }}
 			<div class="caption">{{ .Params.caption }}</div>
 		{{ end }}
