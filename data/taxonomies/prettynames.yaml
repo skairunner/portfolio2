@@ -19,6 +19,9 @@ sql: SQL
 three.js: three.js
 yarn: yarn
 markdown: Markdown
+ci-cd: CI/CD
+appveyor: AppVeyor
+typescript: Typescript
 
 # Categories
 distributed-systems: Distributed systems
@@ -30,3 +33,4 @@ infoviz: Infoviz
 simulation: Simulation
 web-dev: Web dev
 library: Library
+tool: Tool

@@ -5,7 +5,6 @@ date: 2014-06-05T14:47:41-04:00
 github: true
 githuburl: "https://github.com/skairunner/ChartedWaters"
 img: "charteredwaters.png"
-languages: ["C++"]
 link: "#"
 platform: "Desktop"
 role: "Developer"

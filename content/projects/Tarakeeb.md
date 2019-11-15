@@ -7,7 +7,7 @@ github: true
 githuburl: "https://github.com/NYUAD-Hackathon-2017/tarakeeb"
 img: "tarakeeb.png"
 languages: ["javascript", "python"]
-link: "http://tarakeeb.skye.tech/"
+link: "http://tarakeeb.skye.im/"
 platform: "Web"
 summary: "Interactive grammar-teaching tool"
 role: "Team leader, developer"

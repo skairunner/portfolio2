@@ -6,7 +6,7 @@ github: true
 githuburl: "https://github.com/skairunner/TrajectoryInspector"
 img: "trajectoryinspector.png"
 languages: ["javascript", "python", "C#"]
-link: "http://trajectory.skye.tech/"
+link: "http://trajectory.skye.im/"
 platform: "Web"
 report: "/trajectory-inspector.pdf"
 role: "Research, developer"

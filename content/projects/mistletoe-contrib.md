@@ -8,9 +8,9 @@ githuburl: "https://github.com/skairunner/mistletoe/tree/dev"
 img: "mistletoe.thumb.png"
 imgWidth: 256
 link: "#"
-platform: "Web"
+platform: "CLI"
 role: "Open source contributor"
-summary: "Contributed new renderer to Markdown parser"
+summary: "New renderer for Markdown parser"
 teamsize: "1"
 technologies: ["python", "markdown"]
 categories: ["web dev", "library"]

@@ -4,7 +4,7 @@ date: 2015-03-15T14:47:41-04:00
 
 caption: "Simulation in progress, including a 3D view as well as informative panel views."
 github: true
-githuburl: "https://github.com/Skyyrunner/FluidSim"
+githuburl: "https://github.com/skairunner/FluidSim"
 img: "watersim.png"
 languages: ["C++"]
 link: "#"

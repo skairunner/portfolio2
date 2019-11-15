@@ -17,7 +17,7 @@ teamsize: "1"
 thumb: "raycaster3.thumb.png"
 ---
 
-Raycaster3 is a simple recursive raytracer, built from the ground-up. It accepts a JSON format configuration file and uses `pyeuclid` for geometry. I calculate collisions from rays 'fired' through each screen pixel, then calculate secondary or tertiary rays that result from reflection as well, and sum up the results for the final render. Raycaster3 builds on the experience I gained coding a [previous one](https://github.com/Skyyrunner/Raytracer). For example, camera rotation is implemented with quaternions. Features include:
+Raycaster3 is a simple recursive raytracer, built from the ground-up. It accepts a JSON format configuration file and uses `pyeuclid` for geometry. I calculate collisions from rays 'fired' through each screen pixel, then calculate secondary or tertiary rays that result from reflection as well, and sum up the results for the final render. Raycaster3 builds on the experience I gained coding a [previous one](https://github.com/skairunner/Raytracer). For example, camera rotation is implemented with quaternions. Features include:
 
 * render spheres and planes
 * Show reflections up to a specified number of bounces
