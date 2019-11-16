@@ -2,10 +2,10 @@
 title: "KSE"
 date: 2019-11-07T14:47:41-04:00
 
-caption: ""
+caption: "An example of KSE in usage in conjunction with Spriter"
 github: true
 githuburl: "https://github.com/skairunner/kanimal-SE"
-img: "terraingen.png"
+img: "kse.png"
 link: "https://github.com/skairunner/kanimal-SE/releases"
 platform: "CLI"
 role: "Developer"

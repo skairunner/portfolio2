@@ -12,7 +12,7 @@ summary: "Distributed threaded password cracker"
 platform: "Linux/Ubuntu"
 teamsize: "1"
 categories: ["distributed systems"]
-tech: ["C", "POSIX"]
+technologies: ["c", "posix"]
 thumb: "dcp.thumb.png"
 ---
 
