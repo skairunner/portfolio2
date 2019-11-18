@@ -1,16 +1,16 @@
 {{ define "head" }}
-	{{ partial "sass.html" (dict "context" . "src" "project.scss") }}
+	{{ partial "sass.html" (dict "context" . "src" "index.scss") }}
 	<title>{{ printf "%s %s" "Skye Im | " .Data.Plural }} </title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 {{ end }}
 
 {{ define "main" }}
 
-<ul>
-  {{ range .Data.Pages }}
-    <li>
-      <a href="{{.RelPermalink}}">{{ .Title }}</a>
-    </li>
-  {{ end }}
-</ul>
+<div class="term">
+  <h2 id="{{ .Data.Term }}">{{ index $.Site.Data.taxonomies.prettynames (urlize .Data.Term ) }}</h2>
+  <div class="filtered">
+    {{ partial "page_gallery.html" (dict "context" $ "pages" .Data.Pages "hiddenTaxonomies" slice) }}
+  </div>
+</div>
+
 {{ end }}
