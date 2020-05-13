@@ -6,7 +6,7 @@ caption: "Main page of the LA In Anarchy map depicting main regions"
 github: true
 githuburl: "https://github.com/skairunner/laia-map"
 img: "laiamap.png"
-link: "https://laiamap.skye.im/"
+link: "https://skairunner.github.io/laia-map/"
 platform: "Web"
 role: "Developer"
 summary: "Custom GIS-based points of interest map"

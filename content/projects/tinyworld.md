@@ -4,10 +4,10 @@ date: 2018-06-15T14:47:41-04:00
 
 caption: "A top-down view of a procedurally generated tinyworld."
 github: true
-githuburl: "https://github.com/skairunner/Graphics-Final-Project"
+githuburl: "https://github.com/skairunner/tinyworld"
 img: "terraingen.png"
 languages: ["javascript"]
-link: "https://terrain.skye.im"
+link: "https://skairunner.github.io/tinyworld/"
 platform: "Web"
 role: "Procedural generation developer"
 summary: "Procedural 3D landscape"
