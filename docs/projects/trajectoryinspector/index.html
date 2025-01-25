@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<meta charset="utf-8" /> 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70020594-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-70020594-2');
+</script>
+	
+
+
+
+<link rel="stylesheet" href="/project.01e4d263735c344e8930bea34e491f41994dc6c8ac65f33c058cc311fa2c20d272f24e7a0110688afb91c4d17e2750c1cfc1377b170cb98425fde4f9af7ddeb1.css" integrity="sha512-AeTSY3NcNE6JML6jTkkfQZlNxsisZfM8BYzDEfosINJy8k56ARBoivuRxNF&#43;J1DBz8E3excMuYQl/eT5r33esQ=="/>
+	<title>Skye Im |  Trajectory Inspector </title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+    </head>
+    <body><div id="headercontainer" onclick="window.location.href = '/'">
+    <div id="header">
+        <h1>Skye Im</h1>
+        
+            <a href='/'>Portfolio</a>
+        
+        <a href='/resume.pdf'>Resume</a>
+        <a href='/categories'>By category</a>
+        <a href='/technologies'>By technology</a>
+    </div>
+</div><div id="mainwrapper">
+	<div id="content">
+		<div class="title">Trajectory Inspector (2018)</div>
+		<div class="imageholder"><img class="borderedimage" src="/trajectoryinspector.png"
+			 /></div>
+		
+		<div id="links">
+			
+			<a href="https://skairunner.github.io/TrajectoryInspector/"><div class="linkbutton">Demo</div></a>
+			
+			
+			<a href="https://github.com/skairunner/TrajectoryInspector"><div class="linkbutton">Github</div></a>
+			
+			
+			<a href="/trajectory-inspector.pdf"><div class="linkbutton">Report</div></a>
+			
+		</div>
+		<div id="main">
+			<div class="sidebarwrapper">
+				<div class="sidebar">
+					<div><span class="field"><strong>Platform:</strong></span> <span class="fieldanswer">Web</span></div>
+					<div class="sidebar-element"><span class="label"><strong>
+    
+        Languages
+    
+</strong></span>
+
+<span class="fieldanswer tags">
+
+    
+    
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+    
+        
+<span class="pill technologies" data-category="javascript">
+    <a href="/technologies/javascript">
+        Javascript
+    </a>
+</span>
+    
+        
+<span class="pill technologies" data-category="c-sharp">
+    <a href="/technologies/c-sharp">
+        C#
+    </a>
+</span>
+    
+        
+<span class="pill technologies" data-category="sql">
+    <a href="/technologies/sql">
+        SQL
+    </a>
+</span>
+    
+
+</span></div>
+					<div class="sidebar-element"><span class="label"><strong>
+    
+        Technologies
+    
+</strong></span>
+
+<span class="fieldanswer tags">
+
+    
+    
+        
+            
+                
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+    
+        
+<span class="pill technologies" data-category="d3">
+    <a href="/technologies/d3">
+        d3.js
+    </a>
+</span>
+    
+
+</span></div>
+					
+					<div><span class="field"><strong>Role:</strong></span> <span class="fieldanswer">Research, developer</span></div>
+				</div>
+			</div>
+			<div class="explanation"><p>Trajectory Inspector is a proof-of-concept web-app that analyzes aircraft GPS positioning data to cluster and display similar routes. Visualizing the paths airplanes take in the sky is not a simple problem. There are thousands of planes in a given area at once, and drawing the paths on top of each other often leads to tangled, unreadable messes.</p>
+<p>In Trajectory Inspector, I use the EDwP algorithm proposed by S. Ranu et al (2015) as a distance measure between trajectories, and Lu &amp; Fu&rsquo;s nearest-neighbor clustering algorithm to decide which paths are similar. Similar paths have identical colors. The user can click on clusters to view all aircraft in that cluster, and interact with the aircraft list to filter which paths are currently visible on the map.</p>
+<p>To make Trajectory Inspector, I used multiple technologies, leveraging the advantages of each. The JSON file format is used as a common communication interface between component programs.</p>
+<ul>
+<li><code>python 3</code> was used to handle the bulk of the scripting, including loading the raw sensor data into Postgre, processing data into path files, and the clustering.</li>
+<li><code>C#</code> was used to calculate the EDwP distance between paths. I originally implemented the EDwP algorithm in Python, but it was prohibitively slow so I rewrote it in C#. On inputs of length 10, the Python implementation took <strong>77s</strong> to complete, while the C# rewrite took &laquo; 1s.</li>
+<li><code>d3.js</code> and <code>javascript</code> was used as the client. d3.js is nearly a <em>lingua franca</em> of infoviz, and allows even complicated visualizations to be coded with little effort. I leveraged many ES6 features for quality of life.</li>
+</ul>
+<p>Trajectory Inspector was my final project for Information Visualization with Dr. Nan Cao. The full list of citations can be found in the README.md <a href="https://github.com/skairunner/TrajectoryInspector">here</a>, and a report is available above.</p>
+</div>
+		</div>
+	</div>
+
+        </div><div id="footer-container">
+    <span id="footer">
+        Skye Im | <a href="mailto:skye.im@nyu.edu">skye.im@nyu.edu</a> | <a href="https://github.com/skairunner">github</a>
+    </span>
+</div></body>
+</html>

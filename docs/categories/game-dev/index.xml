@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Dev on Portfolio v2</title>
+    <link>http://example.org/categories/game-dev/</link>
+    <description>Recent content in Game Dev on Portfolio v2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Nov 2019 14:47:41 -0400</lastBuildDate>
+    <atom:link href="http://example.org/categories/game-dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KSE</title>
+      <link>http://example.org/projects/kse/</link>
+      <pubDate>Thu, 07 Nov 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/kse/</guid>
+      <description>Tool to convert between cutout (vector) animation formats</description>
+    </item>
+    <item>
+      <title>ONI mods</title>
+      <link>http://example.org/projects/oni-mods/</link>
+      <pubDate>Sat, 07 Sep 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/oni-mods/</guid>
+      <description>Add-ons for game Oxygen Not Included</description>
+    </item>
+    <item>
+      <title>TinyWorld</title>
+      <link>http://example.org/projects/tinyworld/</link>
+      <pubDate>Fri, 15 Jun 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/tinyworld/</guid>
+      <description>Procedural 3D landscape</description>
+    </item>
+    <item>
+      <title>Raycaster3</title>
+      <link>http://example.org/projects/raycaster3/</link>
+      <pubDate>Wed, 15 Jun 2016 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/raycaster3/</guid>
+      <description>Bottom-up 3D renderer in Python</description>
+    </item>
+    <item>
+      <title>Chartered Waters</title>
+      <link>http://example.org/projects/charteredwaters/</link>
+      <pubDate>Thu, 05 Jun 2014 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/charteredwaters/</guid>
+      <description>Procedurally generated age of sail game</description>
+    </item>
+  </channel>
+</rss>

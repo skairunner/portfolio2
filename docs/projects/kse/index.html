@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<meta charset="utf-8" /> 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70020594-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-70020594-2');
+</script>
+	
+
+
+
+<link rel="stylesheet" href="/project.01e4d263735c344e8930bea34e491f41994dc6c8ac65f33c058cc311fa2c20d272f24e7a0110688afb91c4d17e2750c1cfc1377b170cb98425fde4f9af7ddeb1.css" integrity="sha512-AeTSY3NcNE6JML6jTkkfQZlNxsisZfM8BYzDEfosINJy8k56ARBoivuRxNF&#43;J1DBz8E3excMuYQl/eT5r33esQ=="/>
+	<title>Skye Im |  KSE </title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+    </head>
+    <body><div id="headercontainer" onclick="window.location.href = '/'">
+    <div id="header">
+        <h1>Skye Im</h1>
+        
+            <a href='/'>Portfolio</a>
+        
+        <a href='/resume.pdf'>Resume</a>
+        <a href='/categories'>By category</a>
+        <a href='/technologies'>By technology</a>
+    </div>
+</div><div id="mainwrapper">
+	<div id="content">
+		<div class="title">KSE (2019)</div>
+		<div class="imageholder"><img class="borderedimage" src="/kse.png"
+			 /></div>
+		
+			<div class="caption">An example of KSE in usage in conjunction with Spriter</div>
+		
+		<div id="links">
+			
+			<a href="https://github.com/skairunner/kanimal-SE/releases"><div class="linkbutton">Demo</div></a>
+			
+			
+			<a href="https://github.com/skairunner/kanimal-SE"><div class="linkbutton">Github</div></a>
+			
+			
+		</div>
+		<div id="main">
+			<div class="sidebarwrapper">
+				<div class="sidebar">
+					<div><span class="field"><strong>Platform:</strong></span> <span class="fieldanswer">CLI</span></div>
+					<div class="sidebar-element"><span class="label"><strong>
+    
+        Languages
+    
+</strong></span>
+
+<span class="fieldanswer tags">
+
+    
+    
+        
+            
+        
+    
+        
+    
+    
+        
+<span class="pill technologies" data-category="c-sharp">
+    <a href="/technologies/c-sharp">
+        C#
+    </a>
+</span>
+    
+
+</span></div>
+					<div class="sidebar-element"><span class="label"><strong>
+    
+        Technologies
+    
+</strong></span>
+
+<span class="fieldanswer tags">
+
+    
+    
+        
+            
+        
+    
+        
+            
+                
+            
+        
+    
+    
+        
+<span class="pill technologies" data-category="appveyor">
+    <a href="/technologies/appveyor">
+        AppVeyor
+    </a>
+</span>
+    
+
+</span></div>
+					
+					<div><span class="field"><strong>Role:</strong></span> <span class="fieldanswer">Developer</span></div>
+				</div>
+			</div>
+			<div class="explanation"><p>kanimal SE (KSE) is an open source library and command-line interface (CLI) tool that converts between cut-out animation formats, including kanim (Klei animation) and scml (Spriter) using a common, intermediate in-memory format. KSE was developed to support <em>Oxygen Not Included</em> modding. The project is an extension of kparserX, which itself is an extension of kparser by Davis Cook (@daviscook477).</p>
+<p>Modding games such as <em>Oxygen Not Included</em> poses many unique challenges. For <em>Oxygen Not Included</em> in particular, adding new assets to the game requires compiling to Klei, the developer&rsquo;s proprietary animation format. Although the format is well-understood, the developers are understandably reluctant to release their internal tools. Therefore, a method to convert between an open format to the Klei format is required.</p>
+<p>kparser is the most-used conversion program in the <em>Oxygen Not Included</em> modding community, written supporting Java 9+ and two formats, Klei format and Spriter format (.scml, project files for a free, but not open software). It has many drawbacks, though, due to its status as a rough, proof-of-concept tool that was not developed further. Klei format animations consist of three files of separate file types (.png, _anim.bytes, _build.bytes), and kparser requires users to provide the files as absolute paths in a specific order. The program crashes with an unintuitive error message when these requirements are not fulfilled. kparser has many other implicit, poorly-documented requirements that respectively crash with a null reference exception. kparserX is a fork of kparser that attempts to address these issues, but others were not so easily solvable. The common Java version distributed at java.org is version 8, while kparser/X requires version 9+, again posing a barrier to entry. .NET Core allows for trivial cross-platform support with self-contained programs, and the vast majority of the <em>Oxygen Not Included</em> community is more proficient with C# as well, so I decided to first port kparser/X to C# then refactor and add usability improvements that help ensure the principle of least surprise is preserved.</p>
+<p>KSE is structured as a typical CLI tool: the functionality is contained within a relatively clean API with no CLI, and a separate CLI program is written which interfaces between the command line and the library. Moving away from passing path strings to methods to passing Stream objects, which can represent files, in-memory objects, or even network streams allows more flexibility when extending KSE and also helps keep the API clean, and was an obvious choice. The functionality of kparserX is split into Readers (KanimReader, ScmlReader) and Writers (KanimWriter, ScmlWriter), which respectively read into and write out from a loosely-defined, common in-memory format. This architectural decision also allows for easier extension of KSE for formats beside the initially supported two, such as an alternative editor format like Adobe Animate or Synfig, or alternative target formats such as .gif.</p>
+<p>I also enhanced the ScmlReader capabilities. Spriter operates on the concept of &ldquo;keyframes&rdquo;, and when values for a sprite are not explicitly specified in a given keyframe Spriter interpolates the values from the last known and subsequent known values. kparser/X does not support this feature, but KSE does. Other features include the ability to consume Spriter files with &ldquo;animation bones&rdquo; without crashing as well as supporting sprite substitutions.</p>
+<p>I intend to continue maintaining KSE, eliminating unexpected errors and ensuring that fatal errors are easy to understand and fix. KSE has Continuous Delivery (CD) targetting three platforms (Windows, MacOS, Linux) and two formats (self-contained and framework-dependent) hosted on AppVeyor, so improvements will be effortless to deliver.</p>
+</div>
+		</div>
+	</div>
+
+        </div><div id="footer-container">
+    <span id="footer">
+        Skye Im | <a href="mailto:skye.im@nyu.edu">skye.im@nyu.edu</a> | <a href="https://github.com/skairunner">github</a>
+    </span>
+</div></body>
+</html>

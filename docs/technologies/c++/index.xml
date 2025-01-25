@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on Portfolio v2</title>
+    <link>http://example.org/technologies/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Portfolio v2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Mar 2015 14:47:41 -0400</lastBuildDate>
+    <atom:link href="http://example.org/technologies/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ErosionSim</title>
+      <link>http://example.org/projects/watersim/</link>
+      <pubDate>Sun, 15 Mar 2015 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/watersim/</guid>
+      <description>Virtual pipes-based water erosion sim</description>
+    </item>
+    <item>
+      <title>Chartered Waters</title>
+      <link>http://example.org/projects/charteredwaters/</link>
+      <pubDate>Thu, 05 Jun 2014 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/charteredwaters/</guid>
+      <description>Procedurally generated age of sail game</description>
+    </item>
+  </channel>
+</rss>

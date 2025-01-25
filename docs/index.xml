@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>World, Hello! on Portfolio v2</title>
+    <link>http://example.org/</link>
+    <description>Recent content in World, Hello! on Portfolio v2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Nov 2019 14:47:41 -0400</lastBuildDate>
+    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KSE</title>
+      <link>http://example.org/projects/kse/</link>
+      <pubDate>Thu, 07 Nov 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/kse/</guid>
+      <description>Tool to convert between cutout (vector) animation formats</description>
+    </item>
+    <item>
+      <title>ONI mods</title>
+      <link>http://example.org/projects/oni-mods/</link>
+      <pubDate>Sat, 07 Sep 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/oni-mods/</guid>
+      <description>Add-ons for game Oxygen Not Included</description>
+    </item>
+    <item>
+      <title>LA In Anarchy Map</title>
+      <link>http://example.org/projects/la-in-anarchy-map/</link>
+      <pubDate>Wed, 07 Aug 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/la-in-anarchy-map/</guid>
+      <description>Custom GIS-based points of interest map</description>
+    </item>
+    <item>
+      <title>Abstract OS Simulator</title>
+      <link>http://example.org/projects/aos/</link>
+      <pubDate>Tue, 07 May 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/aos/</guid>
+      <description>High-level OS simulator for teaching purposes</description>
+    </item>
+    <item>
+      <title>PCT Archive</title>
+      <link>http://example.org/projects/pctarchive/</link>
+      <pubDate>Thu, 10 Jan 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/pctarchive/</guid>
+      <description>Short-form creative fiction archive</description>
+    </item>
+    <item>
+      <title>Image Scrapbook</title>
+      <link>http://example.org/projects/image-scrapbook/</link>
+      <pubDate>Mon, 24 Dec 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/image-scrapbook/</guid>
+      <description>Cloud-native image scrapbooking service</description>
+    </item>
+    <item>
+      <title>Mistletoe</title>
+      <link>http://example.org/projects/mistletoe-contrib/</link>
+      <pubDate>Fri, 21 Dec 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/mistletoe-contrib/</guid>
+      <description>New renderer for Markdown parser</description>
+    </item>
+    <item>
+      <title>Jeeves Course Planner</title>
+      <link>http://example.org/projects/jeeves/</link>
+      <pubDate>Sat, 15 Sep 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/jeeves/</guid>
+      <description>Visual course-planning webapp for NYU</description>
+    </item>
+    <item>
+      <title>TinyWorld</title>
+      <link>http://example.org/projects/tinyworld/</link>
+      <pubDate>Fri, 15 Jun 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/tinyworld/</guid>
+      <description>Procedural 3D landscape</description>
+    </item>
+    <item>
+      <title>Future Reality Lab: Research intern</title>
+      <link>http://example.org/resume/frl-intern/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://example.org/resume/frl-intern/</guid>
+      <description>Interned at Future Reality Lab under Dr. Perlin, working on simulated life, including boids, state machine agents, and crowd simulations.</description>
+    </item>
+    <item>
+      <title>Trajectory Inspector</title>
+      <link>http://example.org/projects/trajectoryinspector/</link>
+      <pubDate>Thu, 15 Mar 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/trajectoryinspector/</guid>
+      <description>Data vis project to map major physical airways</description>
+    </item>
+    <item>
+      <title>Distributed Password Cracker</title>
+      <link>http://example.org/projects/dpc/</link>
+      <pubDate>Fri, 15 Dec 2017 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/dpc/</guid>
+      <description>Distributed threaded password cracker</description>
+    </item>
+    <item>
+      <title>NYU Shanghai: Research assistant</title>
+      <link>http://example.org/resume/nyu-cheong/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>http://example.org/resume/nyu-cheong/</guid>
+      <description>Worked with Dr. Foong Soon Cheong to explore various web technologies such as Google Puppeteer, Chrome Extensions, Selenium, React, Electron, and d3.</description>
+    </item>
+    <item>
+      <title>Tarakeeb</title>
+      <link>http://example.org/projects/tarakeeb/</link>
+      <pubDate>Mon, 17 Apr 2017 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/tarakeeb/</guid>
+      <description>Interactive grammar-teaching tool</description>
+    </item>
+    <item>
+      <title>Recipe recommender</title>
+      <link>http://example.org/projects/recipes/</link>
+      <pubDate>Tue, 15 Nov 2016 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/recipes/</guid>
+      <description>Recipe recommending by ingredients owned</description>
+    </item>
+    <item>
+      <title>Raycaster3</title>
+      <link>http://example.org/projects/raycaster3/</link>
+      <pubDate>Wed, 15 Jun 2016 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/raycaster3/</guid>
+      <description>Bottom-up 3D renderer in Python</description>
+    </item>
+    <item>
+      <title>NYU Shanghai Student Life: Student developer</title>
+      <link>http://example.org/resume/nyu-studentlife-dev/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://example.org/resume/nyu-studentlife-dev/</guid>
+      <description>Worked on a team of 3 on a legacy project, a lobby display that pulls data from the OrgSync API and shows information such as school events and the weather.</description>
+    </item>
+    <item>
+      <title>ErosionSim</title>
+      <link>http://example.org/projects/watersim/</link>
+      <pubDate>Sun, 15 Mar 2015 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/watersim/</guid>
+      <description>Virtual pipes-based water erosion sim</description>
+    </item>
+    <item>
+      <title>Chartered Waters</title>
+      <link>http://example.org/projects/charteredwaters/</link>
+      <pubDate>Thu, 05 Jun 2014 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/charteredwaters/</guid>
+      <description>Procedurally generated age of sail game</description>
+    </item>
+  </channel>
+</rss>

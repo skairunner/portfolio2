@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simulation on Portfolio v2</title>
+    <link>http://example.org/categories/simulation/</link>
+    <description>Recent content in Simulation on Portfolio v2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 May 2019 14:47:41 -0400</lastBuildDate>
+    <atom:link href="http://example.org/categories/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abstract OS Simulator</title>
+      <link>http://example.org/projects/aos/</link>
+      <pubDate>Tue, 07 May 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/aos/</guid>
+      <description>High-level OS simulator for teaching purposes</description>
+    </item>
+    <item>
+      <title>TinyWorld</title>
+      <link>http://example.org/projects/tinyworld/</link>
+      <pubDate>Fri, 15 Jun 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/tinyworld/</guid>
+      <description>Procedural 3D landscape</description>
+    </item>
+    <item>
+      <title>Raycaster3</title>
+      <link>http://example.org/projects/raycaster3/</link>
+      <pubDate>Wed, 15 Jun 2016 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/raycaster3/</guid>
+      <description>Bottom-up 3D renderer in Python</description>
+    </item>
+    <item>
+      <title>ErosionSim</title>
+      <link>http://example.org/projects/watersim/</link>
+      <pubDate>Sun, 15 Mar 2015 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/watersim/</guid>
+      <description>Virtual pipes-based water erosion sim</description>
+    </item>
+    <item>
+      <title>Chartered Waters</title>
+      <link>http://example.org/projects/charteredwaters/</link>
+      <pubDate>Thu, 05 Jun 2014 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/charteredwaters/</guid>
+      <description>Procedurally generated age of sail game</description>
+    </item>
+  </channel>
+</rss>

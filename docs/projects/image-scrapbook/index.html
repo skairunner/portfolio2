@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<meta charset="utf-8" /> 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70020594-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-70020594-2');
+</script>
+	
+
+
+
+<link rel="stylesheet" href="/project.01e4d263735c344e8930bea34e491f41994dc6c8ac65f33c058cc311fa2c20d272f24e7a0110688afb91c4d17e2750c1cfc1377b170cb98425fde4f9af7ddeb1.css" integrity="sha512-AeTSY3NcNE6JML6jTkkfQZlNxsisZfM8BYzDEfosINJy8k56ARBoivuRxNF&#43;J1DBz8E3excMuYQl/eT5r33esQ=="/>
+	<title>Skye Im |  Image Scrapbook </title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+    </head>
+    <body><div id="headercontainer" onclick="window.location.href = '/'">
+    <div id="header">
+        <h1>Skye Im</h1>
+        
+            <a href='/'>Portfolio</a>
+        
+        <a href='/resume.pdf'>Resume</a>
+        <a href='/categories'>By category</a>
+        <a href='/technologies'>By technology</a>
+    </div>
+</div><div id="mainwrapper">
+	<div id="content">
+		<div class="title">Image Scrapbook (2018)</div>
+		<div class="imageholder"><img class="borderedimage" src="/imagescrapbook.png"
+			 /></div>
+		
+			<div class="caption">Public gallery page of Image Scrapbook</div>
+		
+		<div id="links">
+			
+			
+			<a href="https://github.com/gpDA/ImageScrapBook"><div class="linkbutton">Github</div></a>
+			
+			
+		</div>
+		<div id="main">
+			<div class="sidebarwrapper">
+				<div class="sidebar">
+					<div><span class="field"><strong>Platform:</strong></span> <span class="fieldanswer">Desktop</span></div>
+					<div class="sidebar-element"><span class="label"><strong>
+    
+        Languages
+    
+</strong></span>
+
+<span class="fieldanswer tags">
+
+    
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+<span class="pill technologies" data-category="python">
+    <a href="/technologies/python">
+        Python
+    </a>
+</span>
+    
+        
+<span class="pill technologies" data-category="javascript">
+    <a href="/technologies/javascript">
+        Javascript
+    </a>
+</span>
+    
+
+</span></div>
+					<div class="sidebar-element"><span class="label"><strong>
+    
+        Technologies
+    
+</strong></span>
+
+<span class="fieldanswer tags">
+
+    
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+                
+            
+        
+    
+        
+            
+                
+            
+        
+    
+        
+            
+                
+            
+        
+    
+        
+            
+                
+            
+        
+    
+        
+            
+                
+            
+        
+    
+    
+        
+<span class="pill technologies" data-category="bootstrap">
+    <a href="/technologies/bootstrap">
+        Bootstrap
+    </a>
+</span>
+    
+        
+<span class="pill technologies" data-category="kubernetes">
+    <a href="/technologies/kubernetes">
+        Kubernetes
+    </a>
+</span>
+    
+        
+<span class="pill technologies" data-category="docker">
+    <a href="/technologies/docker">
+        Docker
+    </a>
+</span>
+    
+        
+<span class="pill technologies" data-category="postgresql">
+    <a href="/technologies/postgresql">
+        Postgres
+    </a>
+</span>
+    
+        
+<span class="pill technologies" data-category="s3">
+    <a href="/technologies/s3">
+        Amazon S3
+    </a>
+</span>
+    
+
+</span></div>
+					
+					<div><span class="field"><strong>Team size:</strong></span> <span class="fieldanswer">3</span></div>
+					
+					<div><span class="field"><strong>Role:</strong></span> <span class="fieldanswer">Team leader</span></div>
+				</div>
+			</div>
+			<div class="explanation"><p>Image Scrapbook is a proof-of-concept, cloud native app made as a team during NYU&rsquo;s Large Scale Webapps class in Fall 2018. It is a web app plus a browser extension that allows users to select an image they are viewing on any website and saves the source image in their personal gallery. Image Scrapbook also allows for some simple social features, such as sharing images to friends on the site. It is built using Django for the webserver backed by a Postgres database. All aspects of the program are containerized and managed by Kubernetes, allowing easy scaling of resources in the event that it is required.</p>
+<p>One of the services composing Image Scrapbook is a &ldquo;thumbnailer&rdquo; service. It is in charge of processing incoming images and creating thumbnails out of them. Although this process could be included on the webserver, it is  more CPU intensive than the other tasks a webserver would handle, and so I factored it out to allow for separate scaling. Each thumbnail process is a Celery worker running a script that uses Python Imaging Library to resize images. These workers are assigned tasks by the RabbitMQ server, also in a separate container, and upload the result thumbnails to Amazon S3, mocked with Minio.</p>
+<p>I also implemented the Kubernetes configuration, packing each element into a Docker image and assigning permanent backing stores to the RabbitMQ and Postgres images. I wrote a deploy script that tears down and restarts the Kubernetes cluster, allowing for rapid and reproducible deployments. This was particularly useful because Google Cloud resources are relatively expensive for our use-case, so we could painlessly offline the webapp until it is needed, e.g. during the demo. Having a deployed script that is known to perform well helps to eliminate the common situation of tech demos not working when the program ran perfectly well in development.</p>
+<p>As the team leader, I had to familiarize myself with the entire app, helping guide the design as well as ensuring that each component, worked on separately, was seamlessly interoperable with the others. Although my main area of work was the backend and devops, I am confident in my knowledge of the entire system, and I believe this familiarity helped me troubleshoot problems in other components.</p>
+</div>
+		</div>
+	</div>
+
+        </div><div id="footer-container">
+    <span id="footer">
+        Skye Im | <a href="mailto:skye.im@nyu.edu">skye.im@nyu.edu</a> | <a href="https://github.com/skairunner">github</a>
+    </span>
+</div></body>
+</html>

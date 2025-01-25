@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Portfolio v2</title>
+    <link>http://example.org/categories/</link>
+    <description>Recent content in Categories on Portfolio v2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Nov 2019 14:47:41 -0400</lastBuildDate>
+    <atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ci-Cd</title>
+      <link>http://example.org/categories/ci-cd/</link>
+      <pubDate>Thu, 07 Nov 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/categories/ci-cd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game Dev</title>
+      <link>http://example.org/categories/game-dev/</link>
+      <pubDate>Thu, 07 Nov 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/categories/game-dev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graphics</title>
+      <link>http://example.org/categories/graphics/</link>
+      <pubDate>Thu, 07 Nov 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/categories/graphics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Library</title>
+      <link>http://example.org/categories/library/</link>
+      <pubDate>Thu, 07 Nov 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/categories/library/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tool</title>
+      <link>http://example.org/categories/tool/</link>
+      <pubDate>Thu, 07 Nov 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/categories/tool/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Dev</title>
+      <link>http://example.org/categories/web-dev/</link>
+      <pubDate>Wed, 07 Aug 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/categories/web-dev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Educational</title>
+      <link>http://example.org/categories/educational/</link>
+      <pubDate>Tue, 07 May 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/categories/educational/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simulation</title>
+      <link>http://example.org/categories/simulation/</link>
+      <pubDate>Tue, 07 May 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/categories/simulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Full Stack</title>
+      <link>http://example.org/categories/full-stack/</link>
+      <pubDate>Thu, 10 Jan 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/categories/full-stack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devops</title>
+      <link>http://example.org/categories/devops/</link>
+      <pubDate>Mon, 24 Dec 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/categories/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infoviz</title>
+      <link>http://example.org/categories/infoviz/</link>
+      <pubDate>Thu, 15 Mar 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/categories/infoviz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed Systems</title>
+      <link>http://example.org/categories/distributed-systems/</link>
+      <pubDate>Fri, 15 Dec 2017 14:47:41 -0400</pubDate>
+      <guid>http://example.org/categories/distributed-systems/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

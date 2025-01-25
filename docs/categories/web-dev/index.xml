@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Dev on Portfolio v2</title>
+    <link>http://example.org/categories/web-dev/</link>
+    <description>Recent content in Web Dev on Portfolio v2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Aug 2019 14:47:41 -0400</lastBuildDate>
+    <atom:link href="http://example.org/categories/web-dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LA In Anarchy Map</title>
+      <link>http://example.org/projects/la-in-anarchy-map/</link>
+      <pubDate>Wed, 07 Aug 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/la-in-anarchy-map/</guid>
+      <description>Custom GIS-based points of interest map</description>
+    </item>
+    <item>
+      <title>Image Scrapbook</title>
+      <link>http://example.org/projects/image-scrapbook/</link>
+      <pubDate>Mon, 24 Dec 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/image-scrapbook/</guid>
+      <description>Cloud-native image scrapbooking service</description>
+    </item>
+    <item>
+      <title>Mistletoe</title>
+      <link>http://example.org/projects/mistletoe-contrib/</link>
+      <pubDate>Fri, 21 Dec 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/mistletoe-contrib/</guid>
+      <description>New renderer for Markdown parser</description>
+    </item>
+    <item>
+      <title>Trajectory Inspector</title>
+      <link>http://example.org/projects/trajectoryinspector/</link>
+      <pubDate>Thu, 15 Mar 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/trajectoryinspector/</guid>
+      <description>Data vis project to map major physical airways</description>
+    </item>
+  </channel>
+</rss>

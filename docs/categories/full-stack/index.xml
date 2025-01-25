@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Full Stack on Portfolio v2</title>
+    <link>http://example.org/categories/full-stack/</link>
+    <description>Recent content in Full Stack on Portfolio v2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Jan 2019 14:47:41 -0400</lastBuildDate>
+    <atom:link href="http://example.org/categories/full-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PCT Archive</title>
+      <link>http://example.org/projects/pctarchive/</link>
+      <pubDate>Thu, 10 Jan 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/pctarchive/</guid>
+      <description>Short-form creative fiction archive</description>
+    </item>
+    <item>
+      <title>Image Scrapbook</title>
+      <link>http://example.org/projects/image-scrapbook/</link>
+      <pubDate>Mon, 24 Dec 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/image-scrapbook/</guid>
+      <description>Cloud-native image scrapbooking service</description>
+    </item>
+    <item>
+      <title>Jeeves Course Planner</title>
+      <link>http://example.org/projects/jeeves/</link>
+      <pubDate>Sat, 15 Sep 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/jeeves/</guid>
+      <description>Visual course-planning webapp for NYU</description>
+    </item>
+    <item>
+      <title>Tarakeeb</title>
+      <link>http://example.org/projects/tarakeeb/</link>
+      <pubDate>Mon, 17 Apr 2017 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/tarakeeb/</guid>
+      <description>Interactive grammar-teaching tool</description>
+    </item>
+    <item>
+      <title>Recipe recommender</title>
+      <link>http://example.org/projects/recipes/</link>
+      <pubDate>Tue, 15 Nov 2016 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/recipes/</guid>
+      <description>Recipe recommending by ingredients owned</description>
+    </item>
+  </channel>
+</rss>

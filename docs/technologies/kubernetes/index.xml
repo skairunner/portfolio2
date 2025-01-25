@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on Portfolio v2</title>
+    <link>http://example.org/technologies/kubernetes/</link>
+    <description>Recent content in Kubernetes on Portfolio v2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Dec 2018 14:47:41 -0400</lastBuildDate>
+    <atom:link href="http://example.org/technologies/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Image Scrapbook</title>
+      <link>http://example.org/projects/image-scrapbook/</link>
+      <pubDate>Mon, 24 Dec 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/image-scrapbook/</guid>
+      <description>Cloud-native image scrapbooking service</description>
+    </item>
+  </channel>
+</rss>

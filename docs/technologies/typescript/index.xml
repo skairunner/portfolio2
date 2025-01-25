@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Typescript on Portfolio v2</title>
+    <link>http://example.org/technologies/typescript/</link>
+    <description>Recent content in Typescript on Portfolio v2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 May 2019 14:47:41 -0400</lastBuildDate>
+    <atom:link href="http://example.org/technologies/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abstract OS Simulator</title>
+      <link>http://example.org/projects/aos/</link>
+      <pubDate>Tue, 07 May 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/aos/</guid>
+      <description>High-level OS simulator for teaching purposes</description>
+    </item>
+    <item>
+      <title>Jeeves Course Planner</title>
+      <link>http://example.org/projects/jeeves/</link>
+      <pubDate>Sat, 15 Sep 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/jeeves/</guid>
+      <description>Visual course-planning webapp for NYU</description>
+    </item>
+  </channel>
+</rss>

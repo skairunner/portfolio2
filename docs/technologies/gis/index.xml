@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gis on Portfolio v2</title>
+    <link>http://example.org/technologies/gis/</link>
+    <description>Recent content in Gis on Portfolio v2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Aug 2019 14:47:41 -0400</lastBuildDate>
+    <atom:link href="http://example.org/technologies/gis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LA In Anarchy Map</title>
+      <link>http://example.org/projects/la-in-anarchy-map/</link>
+      <pubDate>Wed, 07 Aug 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/la-in-anarchy-map/</guid>
+      <description>Custom GIS-based points of interest map</description>
+    </item>
+  </channel>
+</rss>

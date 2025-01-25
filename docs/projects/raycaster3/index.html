@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<meta charset="utf-8" /> 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70020594-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-70020594-2');
+</script>
+	
+
+
+
+<link rel="stylesheet" href="/project.01e4d263735c344e8930bea34e491f41994dc6c8ac65f33c058cc311fa2c20d272f24e7a0110688afb91c4d17e2750c1cfc1377b170cb98425fde4f9af7ddeb1.css" integrity="sha512-AeTSY3NcNE6JML6jTkkfQZlNxsisZfM8BYzDEfosINJy8k56ARBoivuRxNF&#43;J1DBz8E3excMuYQl/eT5r33esQ=="/>
+	<title>Skye Im |  Raycaster3 </title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+    </head>
+    <body><div id="headercontainer" onclick="window.location.href = '/'">
+    <div id="header">
+        <h1>Skye Im</h1>
+        
+            <a href='/'>Portfolio</a>
+        
+        <a href='/resume.pdf'>Resume</a>
+        <a href='/categories'>By category</a>
+        <a href='/technologies'>By technology</a>
+    </div>
+</div><div id="mainwrapper">
+	<div id="content">
+		<div class="title">Raycaster3 (2016)</div>
+		<div class="imageholder"><img class="borderedimage" src="/raycaster3.png"
+			 /></div>
+		
+			<div class="caption">A sample render from Raycaster3, showing the reflection feature and the available geometry.</div>
+		
+		<div id="links">
+			
+			
+			<a href="https://github.com/skairunner/raycaster3"><div class="linkbutton">Github</div></a>
+			
+			
+		</div>
+		<div id="main">
+			<div class="sidebarwrapper">
+				<div class="sidebar">
+					<div><span class="field"><strong>Platform:</strong></span> <span class="fieldanswer">Desktop</span></div>
+					<div class="sidebar-element"><span class="label"><strong>
+    
+        Languages
+    
+</strong></span>
+
+<span class="fieldanswer tags">
+
+    
+    
+        
+            
+        
+    
+    
+        
+<span class="pill technologies" data-category="python">
+    <a href="/technologies/python">
+        Python
+    </a>
+</span>
+    
+
+</span></div>
+					<div class="sidebar-element"><span class="label"><strong>
+    
+        Technologies
+    
+</strong></span>
+
+<span class="fieldanswer tags">
+
+    
+    
+        
+            
+        
+    
+    
+
+</span></div>
+					
+					<div><span class="field"><strong>Role:</strong></span> <span class="fieldanswer">Developer</span></div>
+				</div>
+			</div>
+			<div class="explanation"><p>Raycaster3 is a simple recursive raytracer, built from the ground-up. It accepts a JSON format configuration file and uses <code>pyeuclid</code> for geometry. I calculate collisions from rays &lsquo;fired&rsquo; through each screen pixel, then calculate secondary or tertiary rays that result from reflection as well, and sum up the results for the final render. Raycaster3 builds on the experience I gained coding a <a href="https://github.com/skairunner/Raytracer">previous one</a>. For example, camera rotation is implemented with quaternions. Features include:</p>
+<ul>
+<li>render spheres and planes</li>
+<li>Show reflections up to a specified number of bounces</li>
+<li>camera rotation and translation</li>
+<li>multiple objects and lights</li>
+<li>easy task distribution, lending itself well to multiple threads or even machines</li>
+</ul>
+<p>However, due to limitations of Python, render speeds are not fast enough for a realtime display and are instead saved as a file. Additionally, the most typical triangle geometry is not supported, nor are more advanced features such as refraction, global illumination, or caustics.</p>
+</div>
+		</div>
+	</div>
+
+        </div><div id="footer-container">
+    <span id="footer">
+        Skye Im | <a href="mailto:skye.im@nyu.edu">skye.im@nyu.edu</a> | <a href="https://github.com/skairunner">github</a>
+    </span>
+</div></body>
+</html>

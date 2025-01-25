@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Portfolio v2</title>
+    <link>http://example.org/technologies/javascript/</link>
+    <description>Recent content in Javascript on Portfolio v2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Aug 2019 14:47:41 -0400</lastBuildDate>
+    <atom:link href="http://example.org/technologies/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LA In Anarchy Map</title>
+      <link>http://example.org/projects/la-in-anarchy-map/</link>
+      <pubDate>Wed, 07 Aug 2019 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/la-in-anarchy-map/</guid>
+      <description>Custom GIS-based points of interest map</description>
+    </item>
+    <item>
+      <title>Image Scrapbook</title>
+      <link>http://example.org/projects/image-scrapbook/</link>
+      <pubDate>Mon, 24 Dec 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/image-scrapbook/</guid>
+      <description>Cloud-native image scrapbooking service</description>
+    </item>
+    <item>
+      <title>Jeeves Course Planner</title>
+      <link>http://example.org/projects/jeeves/</link>
+      <pubDate>Sat, 15 Sep 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/jeeves/</guid>
+      <description>Visual course-planning webapp for NYU</description>
+    </item>
+    <item>
+      <title>TinyWorld</title>
+      <link>http://example.org/projects/tinyworld/</link>
+      <pubDate>Fri, 15 Jun 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/tinyworld/</guid>
+      <description>Procedural 3D landscape</description>
+    </item>
+    <item>
+      <title>Trajectory Inspector</title>
+      <link>http://example.org/projects/trajectoryinspector/</link>
+      <pubDate>Thu, 15 Mar 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/trajectoryinspector/</guid>
+      <description>Data vis project to map major physical airways</description>
+    </item>
+    <item>
+      <title>Tarakeeb</title>
+      <link>http://example.org/projects/tarakeeb/</link>
+      <pubDate>Mon, 17 Apr 2017 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/tarakeeb/</guid>
+      <description>Interactive grammar-teaching tool</description>
+    </item>
+    <item>
+      <title>Recipe recommender</title>
+      <link>http://example.org/projects/recipes/</link>
+      <pubDate>Tue, 15 Nov 2016 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/recipes/</guid>
+      <description>Recipe recommending by ingredients owned</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Selenium on Portfolio v2</title>
+    <link>http://example.org/technologies/selenium/</link>
+    <description>Recent content in Selenium on Portfolio v2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Sep 2018 14:47:41 -0400</lastBuildDate>
+    <atom:link href="http://example.org/technologies/selenium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jeeves Course Planner</title>
+      <link>http://example.org/projects/jeeves/</link>
+      <pubDate>Sat, 15 Sep 2018 14:47:41 -0400</pubDate>
+      <guid>http://example.org/projects/jeeves/</guid>
+      <description>Visual course-planning webapp for NYU</description>
+    </item>
+  </channel>
+</rss>
