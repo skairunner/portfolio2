@@ -1,27 +1,29 @@
-<span class="label"><strong>
+<span class="label"
+  ><strong>
     {{ if .name }}
-        {{ .name }}
+      {{ .name }}
     {{ else }}
-        Languages
+      Languages
     {{ end }}
-</strong></span>
+  </strong></span
+>
 
 <span class="fieldanswer tags">
-{{ if . }}
+  {{ if . }}
     {{ $filtered := slice }}
     {{ range .tags }}
-        {{ if ne $.reverse nil }}
-            {{ if not (in $.data.languages . )  }}
-                {{ $filtered = $filtered | append . }}
-            {{ end }}
-        {{ else if (in $.data.languages . ) }}
-            {{ $filtered = $filtered | append . }}
+      {{ if ne $.reverse nil }}
+        {{ if not (in $.data.languages . ) }}
+          {{ $filtered = $filtered | append . }}
         {{ end }}
+      {{ else if (in $.data.languages . ) }}
+        {{ $filtered = $filtered | append . }}
+      {{ end }}
     {{ end }}
     {{ range $filtered }}
-        {{ partial "pill.html" (dict "tag" . "taxonomy" "technologies" "prettynames" $.data.prettynames) }}
+      {{ partial "pill.html" (dict "tag" . "taxonomy" "technologies" "prettynames" $.data.prettynames) }}
     {{ end }}
-{{ else }}
+  {{ else }}
     {{ "" }}
-{{ end }}
+  {{ end }}
 </span>

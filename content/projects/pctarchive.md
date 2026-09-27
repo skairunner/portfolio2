@@ -13,7 +13,8 @@ role: "Full stack developer"
 summary: "Short-form creative fiction archive"
 teamsize: "1"
 categories: ["full stack"]
-technologies: ["django", "python", "elasticsearch", "postgresql", "oauth2", "discord.py"]
+technologies:
+  ["django", "python", "elasticsearch", "postgresql", "oauth2", "discord.py"]
 thumb: "pctarchive.thumb.png"
 ---
 

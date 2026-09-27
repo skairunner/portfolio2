@@ -2,3 +2,8 @@
 public/*
 resources/_gen
 hugo
+.hugo_build.lock
+
+.idea
+node_modules
+

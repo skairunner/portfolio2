@@ -1,43 +1,63 @@
 {{ define "head" }}
-	{{ partial "sass.html" (dict "context" . "src" "project.scss") }}
-	<title>{{ printf "%s %s" "Skye Im | " .Params.title }} </title>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+  {{ partial "sass.html" (dict "context" . "src" "project.scss") }}
+  <title>{{ printf "%s %s" "Skye Im | " .Params.title }}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
 {{ end }}
 
 {{ define "main" }}
-	<div id="content">
-		<div class="title">{{ .Title }} ({{ dateFormat "2006" .Params.date }})</div>
-		<div class="imageholder"><img class="borderedimage" src="/{{ .Params.img }}"
-			{{ if ne .Params.imgWidth nil }}
-				style="max-width: {{ .Params.imgWidth }}px;"
-			{{ end }} /></div>
-		{{ if .Params.caption }}
-			<div class="caption">{{ .Params.caption }}</div>
-		{{ end }}
-		<div id="links">
-			{{ if ne .Params.link "#" }}
-			<a href="{{ .Params.link }}"><div class="linkbutton">Demo</div></a>
-			{{ end }}
-			{{ if .Params.github }}
-			<a href="{{ .Params.githuburl }}"><div class="linkbutton">Github</div></a>
-			{{ end }}
-			{{ if .Params.report }}
-			<a href="{{ .Params.report }}"><div class="linkbutton">Report</div></a>
-			{{ end }}
-		</div>
-		<div id="main">
-			<div class="sidebarwrapper">
-				<div class="sidebar">
-					<div><span class="field"><strong>Platform:</strong></span> <span class="fieldanswer">{{ .Params.platform }}</span></div>
-					<div class="sidebar-element">{{ partial "sidebar-filter-by-language.html" (dict "data" $.Site.Data.taxonomies "tags" .Params.technologies) }}</div>
-					<div class="sidebar-element">{{ partial "sidebar-filter-by-language.html" (dict "reverse" true "name" "Technologies" "data" $.Site.Data.taxonomies "tags" .Params.technologies) }}</div>
-					{{ if gt .Params.teamsize 1 }}
-					<div><span class="field"><strong>Team size:</strong></span> <span class="fieldanswer">{{ .Params.teamsize }}</span></div>
-					{{ end }}
-					<div><span class="field"><strong>Role:</strong></span> <span class="fieldanswer">{{ .Params.role }}</span></div>
-				</div>
-			</div>
-			<div class="explanation">{{ .Content }}</div>
-		</div>
-	</div>
+  <div id="content">
+    <div class="title">{{ .Title }} ({{ dateFormat "2006" .Params.date }})</div>
+    <div class="imageholder">
+      <img
+        class="borderedimage"
+        src="/{{ .Params.img }}"
+        {{ if ne .Params.imgWidth nil }}
+          style="max-width: {{ .Params.imgWidth }}px;"
+        {{ end }}
+      />
+    </div>
+    {{ if .Params.caption }}
+      <div class="caption">{{ .Params.caption }}</div>
+    {{ end }}
+    <div id="links">
+      {{ if ne .Params.link "#" }}
+        <a href="{{ .Params.link }}"><div class="linkbutton">Demo</div></a>
+      {{ end }}
+      {{ if .Params.github }}
+        <a href="{{ .Params.githuburl }}"
+          ><div class="linkbutton">Github</div></a
+        >
+      {{ end }}
+      {{ if .Params.report }}
+        <a href="{{ .Params.report }}"><div class="linkbutton">Report</div></a>
+      {{ end }}
+    </div>
+    <div id="main">
+      <div class="sidebarwrapper">
+        <div class="sidebar">
+          <div>
+            <span class="field"><strong>Platform:</strong></span>
+            <span class="fieldanswer">{{ .Params.platform }}</span>
+          </div>
+          <div class="sidebar-element">
+            {{ partial "sidebar-filter-by-language.html" (dict "data" $.Site.Data.taxonomies "tags" .Params.technologies) }}
+          </div>
+          <div class="sidebar-element">
+            {{ partial "sidebar-filter-by-language.html" (dict "reverse" true "name" "Technologies" "data" $.Site.Data.taxonomies "tags" .Params.technologies) }}
+          </div>
+          {{ if gt .Params.teamsize 1 }}
+            <div>
+              <span class="field"><strong>Team size:</strong></span>
+              <span class="fieldanswer">{{ .Params.teamsize }}</span>
+            </div>
+          {{ end }}
+          <div>
+            <span class="field"><strong>Role:</strong></span>
+            <span class="fieldanswer">{{ .Params.role }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="explanation">{{ .Content }}</div>
+    </div>
+  </div>
 {{ end }}

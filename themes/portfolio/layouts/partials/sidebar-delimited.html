@@ -1,8 +1,8 @@
 <span class="label"><strong>{{ .entryname }}:</strong></span>
 <span class="fieldanswer">
-{{ if .entrydata }}
+  {{ if .entrydata }}
     {{ delimit .entrydata ", " }}
-{{ else }}
+  {{ else }}
     {{ "" }}
-{{ end }}
+  {{ end }}
 </span>

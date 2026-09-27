@@ -2,7 +2,7 @@ $headingfont: "Raleway", "Open Sans", sans-serif;
 $bodyfont: "Open Sans";
 $linkcolor: #555;
 $linkcolor_visited: #111;
-$tile_border: 1px solid rgba(0, 0, 0, .4);
+$tile_border: 1px solid rgba(0, 0, 0, 0.4);
 $accentcolor: #e65019;
 $accenthover: #d43900;
 $lessAccentedColor: #bf5c32;
@@ -10,103 +10,103 @@ $lightfontcolor: #fffafa;
 $border_width_margin: 2vw;
 
 h1 {
-    font-family: $headingfont;
+  font-family: $headingfont;
 }
 
 h2 {
-    font-family: $headingfont;
+  font-family: $headingfont;
 }
 
 body {
-    font-family: $bodyfont;
-    font-size: 14pt;
-    color: #222;
-    line-height: 1.5;
-    background-color: #FFFAFA;
+  font-family: $bodyfont;
+  font-size: 14pt;
+  color: #222;
+  line-height: 1.5;
+  background-color: #fffafa;
 }
 
 a {
-    color: $linkcolor;
+  color: $linkcolor;
 }
 
 a:visited {
-    color: $linkcolor_visited;
+  color: $linkcolor_visited;
 }
 
 a:hover {
-    color: black;
+  color: black;
 }
 
 a.current-page {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .borderedimage {
-	border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 #mainwrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #header {
-    margin: 0 1vw;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2vw;
+  margin: 0 1vw;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vw;
 }
 
 #header a:nth-child(3) {
-    margin-right: auto;
+  margin-right: auto;
 }
 
 #header a {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 #header h1 {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 #footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 $border_width_margin;
-    border-top: $tile_border;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 $border_width_margin;
+  border-top: $tile_border;
 }
 
 #mainwrapper {
-    margin: auto 12%;
+  margin: auto 12%;
 }
 
 #footer {
-    font-size: 16px;
-    font-family: $headingfont;
-    color: #666;
-    padding: 2vh 0;
+  font-size: 16px;
+  font-family: $headingfont;
+  color: #666;
+  padding: 2vh 0;
 }
 
 .pill {
-	background-color: $lessAccentedColor;
-	color: $lightfontcolor;
-    padding: 0.2rem 0.3rem;
-    margin: 0.1rem;
-    border-radius: 10px;
-    
-    & a {
-        color: inherit;
-    }
+  background-color: $lessAccentedColor;
+  color: $lightfontcolor;
+  padding: 0.2rem 0.3rem;
+  margin: 0.1rem;
+  border-radius: 10px;
+
+  & a {
+    color: inherit;
+  }
 }
 
 .tags {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
