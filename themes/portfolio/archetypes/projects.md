@@ -2,14 +2,17 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 
-github: false
+caption: ""
+alt: ""
+github: true
 githuburl: ""
 img: ""
 link: "#"
-summary: ""
-languages: []
-platform: ""
-teamsize: ""
-tech: []
+platform: "Desktop"
+role: "Developer"
+summary: "Summary"
+teamsize: 1
+technologies: ["rust"]
+categories: []
 thumb: ""
 ---
