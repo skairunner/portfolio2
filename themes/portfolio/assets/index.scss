@@ -9,6 +9,7 @@
   grid-row-gap: 2rem;
   width: 100%;
   margin: 0 1vw;
+  padding-bottom: 1rem;
 }
 
 .term {
@@ -23,19 +24,28 @@
 }
 
 .project {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2vh 3vw;
+  justify-content: space-between;
+  margin: 2vh 3vw 0;
   min-width: 128px;
   width: 100%;
-  max-width: 256px;
+  max-width: 280px;
   font-size: 16px;
+}
+
+.project-tile-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project_name {
   font-family: $headingfont;
   font-size: 24px;
+  margin: 0;
 }
 
 .project_thumb img {

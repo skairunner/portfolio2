@@ -2,7 +2,8 @@
 title: "Abstract OS Simulator"
 date: 2019-05-07T14:47:41-04:00
 
-caption: ""
+caption: "A screenshot of Abstract OS in use, including memory, assigned pages, and processes."
+alt: "A screenshot of Abstract OS in use, including memory, assigned pages, and processes. At the top is a timeline, OS statistic graphs like memory usage and page faults. At the bottom are process CPU usage by time. At the right is memory usage by time."
 github: true
 githuburl: "https://github.com/gpDA/ImageScrapBook"
 img: "aos.png"

@@ -26,4 +26,4 @@ KSE is structured as a typical CLI tool: the functionality is contained within a
 
 I also enhanced the ScmlReader capabilities. Spriter operates on the concept of "keyframes", and when values for a sprite are not explicitly specified in a given keyframe Spriter interpolates the values from the last known and subsequent known values. kparser/X does not support this feature, but KSE does. Other features include the ability to consume Spriter files with "animation bones" without crashing as well as supporting sprite substitutions.
 
-I intend to continue maintaining KSE, eliminating unexpected errors and ensuring that fatal errors are easy to understand and fix. KSE has Continuous Delivery (CD) targetting three platforms (Windows, MacOS, Linux) and two formats (self-contained and framework-dependent) hosted on AppVeyor, so improvements will be effortless to deliver.
+KSE has Continuous Delivery (CD) targetting three platforms (Windows, MacOS, Linux) and two formats (self-contained and framework-dependent) hosted on AppVeyor, so improvements will be effortless to deliver in theory.

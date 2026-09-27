@@ -1,5 +1,5 @@
 ---
-title: "Jeeves Course Planner"
+title: "Jeeves"
 date: 2018-09-15T14:47:41-04:00
 
 caption: "Jeeves in use."

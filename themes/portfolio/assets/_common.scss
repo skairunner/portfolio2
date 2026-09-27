@@ -1,11 +1,10 @@
 $headingfont: "Raleway", "Open Sans", sans-serif;
-$bodyfont: "Open Sans";
+$bodyfont: "Open Sans", sans-serif;
 $linkcolor: #555;
 $linkcolor_visited: #111;
 $tile_border: 1px solid rgba(0, 0, 0, 0.4);
 $accentcolor: #e65019;
 $accenthover: #d43900;
-$lessAccentedColor: #bf5c32;
 $lightfontcolor: #fffafa;
 $border_width_margin: 2vw;
 
@@ -52,25 +51,28 @@ a.current-page {
   align-items: center;
 }
 
-#header {
+banner div {
   margin: 0 1vw;
-  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 2vw;
-}
 
-#header a:nth-child(3) {
-  margin-right: auto;
-}
+  a.name-link {
+    text-decoration: none;
+  }
 
-#header a {
-  margin: 0 1rem;
-}
+  a:nth-child(4) {
+    margin-right: auto;
+  }
 
-#header h1 {
-  margin: 1rem;
+  a {
+    margin: 0 1rem;
+  }
+
+  h1 {
+    margin: 1rem;
+  }
 }
 
 #footer-container {
@@ -93,11 +95,11 @@ a.current-page {
 }
 
 .pill {
-  background-color: $lessAccentedColor;
+  background-color: $accentcolor;
   color: $lightfontcolor;
   padding: 0.2rem 0.3rem;
   margin: 0.1rem;
-  border-radius: 10px;
+  border-radius: 5px;
 
   & a {
     color: inherit;

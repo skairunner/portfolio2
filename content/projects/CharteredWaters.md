@@ -2,6 +2,7 @@
 title: "Chartered Waters"
 date: 2014-06-05T14:47:41-04:00
 
+caption: 'Main view of the game, including UI elements along the bottom and several landmasses. The player, indicated by "F", has set a path towards the south-east, represented by √ symbols.'
 github: true
 githuburl: "https://github.com/skairunner/ChartedWaters"
 img: "charteredwaters.png"
@@ -15,7 +16,7 @@ categories: ["game dev", "simulation"]
 thumb: "charteredwaters.thumb.png"
 ---
 
-![UI view](/charteredwaters2.png)
+![Screenshot of a shop.](/charteredwaters2.png)
 
 Chartered Waters is a procedurally generated game set in a fictional Age of Sail. Heavily inspired by the game series _Uncharted Waters_, and in particular _Great Age of Sail Online_, the aim of the project was to create a world with a living economy and agents acting as merchants capable of making informed decisions, painting a backdrop on which the player could make her decisions and affect the economy.
 
