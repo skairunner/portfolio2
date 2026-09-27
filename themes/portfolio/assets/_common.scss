@@ -91,7 +91,7 @@ banner div {
   font-size: 16px;
   font-family: $headingfont;
   color: #666;
-  padding: 2vh 0;
+  padding-top: 1rem;
 }
 
 .pill {
@@ -111,4 +111,10 @@ banner div {
   width: 100%;
   flex-wrap: wrap;
   justify-content: flex-start;
+}
+
+.ai-disclaimer {
+  font-size: 16px;
+  font-family: $headingfont;
+  color: #666;
 }
