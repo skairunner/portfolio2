@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+  <head><link
+  href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i"
+  rel="stylesheet"
+/>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+<meta charset="utf-8" />
+
+  
+
+
+
+<link
+  rel="stylesheet"
+  href="/project.400050aec55c94473b18dc1d4e07dee0dcd4aa78540c701367199f89722aa5d01379c71f50d40d070fc93cf628be4a186ca8503efd2bc3928f86f53764ccca04.css"
+  integrity="sha512-QABQrsVclEc7GNwdTgfe4NzUqnhUDHATZxmfiXIqpdATeccfUNQNBw/JPPYovkoYbKhQPv0rw5KPhvU3ZMzKBA=="
+/>
+
+  <title>Skye Im |  Worldcrier</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  </head>
+  <body><banner>
+  <div id="header">
+    <a class="name-link" href="/"><h1>Skye Im</h1></a>
+    <a href="https://www.skye.im">Homepage</a>
+    
+      <a href="/">Portfolio</a>
+    
+    <a href="/resume.pdf">Resume</a>
+    <a href="/categories">By category</a>
+    <a href="/technologies">By technology</a>
+  </div>
+</banner>
+<main id="mainwrapper">
+  <article>
+    <header class="title">
+      <h2>Worldcrier (2026)</h2>
+    </header>
+    <figure>
+      <div class="imageholder">
+        <img
+          alt="
+            A screenshot of Discord. A bot named Worldcrier has sent two messages in the form of embeds, each with an article title, short blurb, link and time.
+          "
+          class="borderedimage"
+          src="/worldcrier.png"
+          
+        />
+      </div>
+      
+        <figcaption>Some example RSS embeds.</figcaption>
+      
+    </figure>
+    <nav id="links">
+      
+      
+        <a href="https://github.com/skairunner/worldcrier"
+          ><div class="linkbutton">Github</div></a
+        >
+      
+      
+    </nav>
+    <div id="main">
+      <div class="sidebarwrapper">
+        <aside class="sidebar">
+          <div>
+            <span class="field"><strong>Platform:</strong></span>
+            <span class="fieldanswer">Server</span>
+          </div>
+          <div class="sidebar-element">
+            <span class="label"
+  ><strong>
+    
+      Languages
+    
+  </strong></span
+>
+
+<span class="fieldanswer tags">
+  
+    
+    
+      
+        
+      
+    
+    
+      
+<span class="pill technologies" data-category="rust">
+  <a href="/technologies/rust">
+    Rust
+  </a>
+</span>
+
+    
+  
+</span>
+
+          </div>
+          <div class="sidebar-element">
+            <span class="label"
+  ><strong>
+    
+      Technologies
+    
+  </strong></span
+>
+
+<span class="fieldanswer tags">
+  
+    
+    
+      
+        
+      
+    
+    
+  
+</span>
+
+          </div>
+          
+          <div>
+            <span class="field"><strong>Role:</strong></span>
+            <span class="fieldanswer">Developer</span>
+          </div>
+        </aside>
+      </div>
+      <div class="explanation"><p>Worldcrier is a bot that reads the WorldAnvil RSS feed for my fiancée&rsquo;s world and posts new entries to a Discord announcements server. WorldAnvil provides a Discord embed webhook, but it is not customizable. So I created a Discord bot to address this need.</p>
+<p>The <code>serenity</code> framework is used for the bot side. Discord is a highly realtime application, so its API is not simple to interface with and involves several complex topics. Serenity provides a fairly ergonomic wrapper around it.</p>
+<p>Similar to <a href="/projects/commentater">Commentater</a>, launching Worldcrier spawns a task that periodically polls the RSS feed. Interestingly, it seems like there is no standard of how to get updates from RSS feeds. It feels like a relic of a different internet. The RSS feed items are upserted into an SQLite database.</p>
+<p>The bot itself also periodically polls for items to send. It tries to prevent sending too many messages from a single world at once. Although I had thoughts of making it a multi-tenant system, it didn&rsquo;t seem necessary given that there was only one user.</p>
+</div>
+    </div>
+  </article>
+
+    </main><footer id="footer-container">
+  <span id="footer">
+    <a href="https://www.skye.im">Skye Im</a> |
+    <a href="mailto:skye.im@nyu.edu">skye.im@nyu.edu</a> |
+    <a href="https://github.com/skairunner">github</a>
+  </span>
+  <span class="ai-disclaimer"
+    >No AI was intentionally or consciously used to create this website.</span
+  >
+</footer>
+</body>
+</html>

@@ -1,40 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Web Dev on Portfolio v2</title>
-    <link>http://example.org/categories/web-dev/</link>
-    <description>Recent content in Web Dev on Portfolio v2</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 07 Aug 2019 14:47:41 -0400</lastBuildDate>
-    <atom:link href="http://example.org/categories/web-dev/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>LA In Anarchy Map</title>
-      <link>http://example.org/projects/la-in-anarchy-map/</link>
-      <pubDate>Wed, 07 Aug 2019 14:47:41 -0400</pubDate>
-      <guid>http://example.org/projects/la-in-anarchy-map/</guid>
-      <description>Custom GIS-based points of interest map</description>
-    </item>
-    <item>
-      <title>Image Scrapbook</title>
-      <link>http://example.org/projects/image-scrapbook/</link>
-      <pubDate>Mon, 24 Dec 2018 14:47:41 -0400</pubDate>
-      <guid>http://example.org/projects/image-scrapbook/</guid>
-      <description>Cloud-native image scrapbooking service</description>
-    </item>
-    <item>
-      <title>Mistletoe</title>
-      <link>http://example.org/projects/mistletoe-contrib/</link>
-      <pubDate>Fri, 21 Dec 2018 14:47:41 -0400</pubDate>
-      <guid>http://example.org/projects/mistletoe-contrib/</guid>
-      <description>New renderer for Markdown parser</description>
-    </item>
-    <item>
-      <title>Trajectory Inspector</title>
-      <link>http://example.org/projects/trajectoryinspector/</link>
-      <pubDate>Thu, 15 Mar 2018 14:47:41 -0400</pubDate>
-      <guid>http://example.org/projects/trajectoryinspector/</guid>
-      <description>Data vis project to map major physical airways</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Web-Dev on Portfolio v2</title>
+		<link>http://example.org/categories/web-dev/</link>
+		<description>Recent content in Web-Dev on Portfolio v2</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 12 Mar 2026 21:02:11 +0200</lastBuildDate>
+		
+			<atom:link href="http://example.org/categories/web-dev/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Ten by ten</title>
+				<link>http://example.org/projects/tenbyten/</link>
+				<pubDate>Thu, 12 Mar 2026 21:02:11 +0200</pubDate>
+				<guid>http://example.org/projects/tenbyten/</guid>
+				<description>Word matching game</description>
+			</item>
+			<item>
+				<title>Commentater</title>
+				<link>http://example.org/projects/commentater/</link>
+				<pubDate>Sun, 27 Apr 2025 14:47:41 -0400</pubDate>
+				<guid>http://example.org/projects/commentater/</guid>
+				<description>Third party WorldAnvil comment management system</description>
+			</item>
+			<item>
+				<title>LA In Anarchy Map</title>
+				<link>http://example.org/projects/la-in-anarchy-map/</link>
+				<pubDate>Wed, 07 Aug 2019 14:47:41 -0400</pubDate>
+				<guid>http://example.org/projects/la-in-anarchy-map/</guid>
+				<description>Custom GIS-based points of interest map</description>
+			</item>
+			<item>
+				<title>Image Scrapbook</title>
+				<link>http://example.org/projects/image-scrapbook/</link>
+				<pubDate>Mon, 24 Dec 2018 14:47:41 -0400</pubDate>
+				<guid>http://example.org/projects/image-scrapbook/</guid>
+				<description>Cloud-native image scrapbooking service</description>
+			</item>
+			<item>
+				<title>Mistletoe</title>
+				<link>http://example.org/projects/mistletoe-contrib/</link>
+				<pubDate>Fri, 21 Dec 2018 14:47:41 -0400</pubDate>
+				<guid>http://example.org/projects/mistletoe-contrib/</guid>
+				<description>New renderer for Markdown parser</description>
+			</item>
+			<item>
+				<title>Trajectory Inspector</title>
+				<link>http://example.org/projects/trajectoryinspector/</link>
+				<pubDate>Thu, 15 Mar 2018 14:47:41 -0400</pubDate>
+				<guid>http://example.org/projects/trajectoryinspector/</guid>
+				<description>Data vis project to map major physical airways</description>
+			</item>
+	</channel>
 </rss>

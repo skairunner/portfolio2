@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+  <head><link
+  href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i"
+  rel="stylesheet"
+/>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+<meta charset="utf-8" />
+
+  
+
+
+
+<link
+  rel="stylesheet"
+  href="/project.400050aec55c94473b18dc1d4e07dee0dcd4aa78540c701367199f89722aa5d01379c71f50d40d070fc93cf628be4a186ca8503efd2bc3928f86f53764ccca04.css"
+  integrity="sha512-QABQrsVclEc7GNwdTgfe4NzUqnhUDHATZxmfiXIqpdATeccfUNQNBw/JPPYovkoYbKhQPv0rw5KPhvU3ZMzKBA=="
+/>
+
+  <title>Skye Im |  Commentater</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  </head>
+  <body><banner>
+  <div id="header">
+    <a class="name-link" href="/"><h1>Skye Im</h1></a>
+    <a href="https://www.skye.im">Homepage</a>
+    
+      <a href="/">Portfolio</a>
+    
+    <a href="/resume.pdf">Resume</a>
+    <a href="/categories">By category</a>
+    <a href="/technologies">By technology</a>
+  </div>
+</banner>
+<main id="mainwrapper">
+  <article>
+    <header class="title">
+      <h2>Commentater (2025)</h2>
+    </header>
+    <figure>
+      <div class="imageholder">
+        <img
+          alt="
+            The front page of Commentater.
+          "
+          class="borderedimage"
+          src="/commentater.png"
+          
+        />
+      </div>
+      
+        <figcaption>The front page of Commentater.</figcaption>
+      
+    </figure>
+    <nav id="links">
+      
+      
+        <a href="https://github.com/skairunner/commentater"
+          ><div class="linkbutton">Github</div></a
+        >
+      
+      
+    </nav>
+    <div id="main">
+      <div class="sidebarwrapper">
+        <aside class="sidebar">
+          <div>
+            <span class="field"><strong>Platform:</strong></span>
+            <span class="fieldanswer">Web</span>
+          </div>
+          <div class="sidebar-element">
+            <span class="label"
+  ><strong>
+    
+      Languages
+    
+  </strong></span
+>
+
+<span class="fieldanswer tags">
+  
+    
+    
+      
+        
+      
+    
+      
+    
+    
+      
+<span class="pill technologies" data-category="rust">
+  <a href="/technologies/rust">
+    Rust
+  </a>
+</span>
+
+    
+  
+</span>
+
+          </div>
+          <div class="sidebar-element">
+            <span class="label"
+  ><strong>
+    
+      Technologies
+    
+  </strong></span
+>
+
+<span class="fieldanswer tags">
+  
+    
+    
+      
+        
+      
+    
+      
+        
+          
+        
+      
+    
+    
+      
+<span class="pill technologies" data-category="postgresql">
+  <a href="/technologies/postgresql">
+    Postgres
+  </a>
+</span>
+
+    
+  
+</span>
+
+          </div>
+          
+          <div>
+            <span class="field"><strong>Role:</strong></span>
+            <span class="fieldanswer">Developer</span>
+          </div>
+        </aside>
+      </div>
+      <div class="explanation"><p>Commentater is a third party tool that helps with managing WorldAnvil comments. WorldAnvil is effectively a SaaS content management system platform focused around writing wiki articles about fictional worlds. It provides a simple CRUD REST API, but at the time of coding, comments were not available through the API. Therefore, I created a low-impact scraper to fetch some of the information required.</p>
+<p>Commentater consists of two main parts, the webserver and the task queue. The task queue uses Postgres as a simple FIFO queue. It polls items from the queue table using manual locking to prevent duplicate work and scrapes the comments at a sedate rate. The comment HTML is parsed and inserted into the database.</p>
+<p>The webserver then interprets the stored comment data and uses the WorldAnvil API to fetch other information required, such as world names, article names, and usernames. It displays articles which have unanswered comments. This is because it is in the interest of many WorldAnvil authors to actively engage with their readers. WorldAnvil did not have any native solution to this at the time &ndash; although it delivered notifications when comments are made, there was nowhere to see an overview of comments.</p>
+<p>I wrote the webserver using <code>axum</code>, a relatively well-known library in the Rust space. It was an educational experience to experience how surprisingly ergonomic handler approach taken. I had used both <code>async</code> (the keyword) and <code>tower</code> before at Cognite, and axum basically took those concepts and took it further for ease of use in the web space. I also tried using <code>terra</code>, which is conceptually a straightforward port of Jinja2 to Rust. It is reasonably usable, though the loss of type safety (values are mapped to JSON before being used in the templating engine) left something to be desired.</p>
+</div>
+    </div>
+  </article>
+
+    </main><footer id="footer-container">
+  <span id="footer">
+    <a href="https://www.skye.im">Skye Im</a> |
+    <a href="mailto:skye.im@nyu.edu">skye.im@nyu.edu</a> |
+    <a href="https://github.com/skairunner">github</a>
+  </span>
+  <span class="ai-disclaimer"
+    >No AI was intentionally or consciously used to create this website.</span
+  >
+</footer>
+</body>
+</html>

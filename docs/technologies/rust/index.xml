@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Rust on Portfolio v2</title>
+		<link>http://example.org/technologies/rust/</link>
+		<description>Recent content in Rust on Portfolio v2</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 12 Aug 2026 21:11:28 +0200</lastBuildDate>
+		
+			<atom:link href="http://example.org/technologies/rust/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Ratiflora</title>
+				<link>http://example.org/projects/ratiflora/</link>
+				<pubDate>Wed, 12 Aug 2026 21:11:28 +0200</pubDate>
+				<guid>http://example.org/projects/ratiflora/</guid>
+				<description>Trait-based plant identification system</description>
+			</item>
+			<item>
+				<title>Worldcrier</title>
+				<link>http://example.org/projects/worldcrier/</link>
+				<pubDate>Tue, 14 Jul 2026 20:28:28 +0200</pubDate>
+				<guid>http://example.org/projects/worldcrier/</guid>
+				<description>WorldAnvil RSS bot</description>
+			</item>
+			<item>
+				<title>Commentater</title>
+				<link>http://example.org/projects/commentater/</link>
+				<pubDate>Sun, 27 Apr 2025 14:47:41 -0400</pubDate>
+				<guid>http://example.org/projects/commentater/</guid>
+				<description>Third party WorldAnvil comment management system</description>
+			</item>
+	</channel>
+</rss>

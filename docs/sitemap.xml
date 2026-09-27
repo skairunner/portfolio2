@@ -2,19 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/categories/</loc>
+    <lastmod>2026-08-12T21:11:28+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/</loc>
+    <lastmod>2026-08-12T21:11:28+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/ratiflora/</loc>
+    <lastmod>2026-08-12T21:11:28+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/technologies/rust/</loc>
+    <lastmod>2026-08-12T21:11:28+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/technologies/</loc>
+    <lastmod>2026-08-12T21:11:28+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/categories/tool/</loc>
+    <lastmod>2026-08-12T21:11:28+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/worldcrier/</loc>
+    <lastmod>2026-07-14T20:28:28+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/categories/game-dev/</loc>
+    <lastmod>2026-03-12T21:02:11+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/technologies/react/</loc>
+    <lastmod>2026-03-12T21:02:11+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/tenbyten/</loc>
+    <lastmod>2026-03-12T21:02:11+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/technologies/typescript/</loc>
+    <lastmod>2026-03-12T21:02:11+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/categories/web-dev/</loc>
+    <lastmod>2026-03-12T21:02:11+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/commentater/</loc>
+    <lastmod>2025-04-27T14:47:41-04:00</lastmod>
+  </url><url>
+    <loc>http://example.org/categories/full-stack/</loc>
+    <lastmod>2025-04-27T14:47:41-04:00</lastmod>
+  </url><url>
+    <loc>http://example.org/technologies/postgresql/</loc>
+    <lastmod>2025-04-27T14:47:41-04:00</lastmod>
+  </url><url>
     <loc>http://example.org/technologies/appveyor/</loc>
     <lastmod>2019-11-07T14:47:41-04:00</lastmod>
   </url><url>
     <loc>http://example.org/technologies/c-sharp/</loc>
     <lastmod>2019-11-07T14:47:41-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
-    <lastmod>2019-11-07T14:47:41-04:00</lastmod>
-  </url><url>
     <loc>http://example.org/categories/ci-cd/</loc>
-    <lastmod>2019-11-07T14:47:41-04:00</lastmod>
-  </url><url>
-    <loc>http://example.org/categories/game-dev/</loc>
     <lastmod>2019-11-07T14:47:41-04:00</lastmod>
   </url><url>
     <loc>http://example.org/categories/graphics/</loc>
@@ -24,15 +63,6 @@
     <lastmod>2019-11-07T14:47:41-04:00</lastmod>
   </url><url>
     <loc>http://example.org/categories/library/</loc>
-    <lastmod>2019-11-07T14:47:41-04:00</lastmod>
-  </url><url>
-    <loc>http://example.org/projects/</loc>
-    <lastmod>2019-11-07T14:47:41-04:00</lastmod>
-  </url><url>
-    <loc>http://example.org/technologies/</loc>
-    <lastmod>2019-11-07T14:47:41-04:00</lastmod>
-  </url><url>
-    <loc>http://example.org/categories/tool/</loc>
     <lastmod>2019-11-07T14:47:41-04:00</lastmod>
   </url><url>
     <loc>http://example.org/projects/oni-mods/</loc>
@@ -53,12 +83,6 @@
     <loc>http://example.org/projects/la-in-anarchy-map/</loc>
     <lastmod>2019-08-07T14:47:41-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/technologies/react/</loc>
-    <lastmod>2019-08-07T14:47:41-04:00</lastmod>
-  </url><url>
-    <loc>http://example.org/categories/web-dev/</loc>
-    <lastmod>2019-08-07T14:47:41-04:00</lastmod>
-  </url><url>
     <loc>http://example.org/projects/aos/</loc>
     <lastmod>2019-05-07T14:47:41-04:00</lastmod>
   </url><url>
@@ -71,9 +95,6 @@
     <loc>http://example.org/categories/simulation/</loc>
     <lastmod>2019-05-07T14:47:41-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/technologies/typescript/</loc>
-    <lastmod>2019-05-07T14:47:41-04:00</lastmod>
-  </url><url>
     <loc>http://example.org/technologies/discord.py/</loc>
     <lastmod>2019-01-10T14:47:41-04:00</lastmod>
   </url><url>
@@ -83,16 +104,10 @@
     <loc>http://example.org/technologies/elasticsearch/</loc>
     <lastmod>2019-01-10T14:47:41-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/full-stack/</loc>
-    <lastmod>2019-01-10T14:47:41-04:00</lastmod>
-  </url><url>
     <loc>http://example.org/technologies/oauth2/</loc>
     <lastmod>2019-01-10T14:47:41-04:00</lastmod>
   </url><url>
     <loc>http://example.org/projects/pctarchive/</loc>
-    <lastmod>2019-01-10T14:47:41-04:00</lastmod>
-  </url><url>
-    <loc>http://example.org/technologies/postgresql/</loc>
     <lastmod>2019-01-10T14:47:41-04:00</lastmod>
   </url><url>
     <loc>http://example.org/technologies/bootstrap/</loc>
