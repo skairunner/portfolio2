@@ -1,10 +1,10 @@
 {{ define "head" }}
-	{{ partial "sass.html" (dict "context" . "src" "index.scss") }}
-	<title>Skye Im | Portfolio</title>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+  {{ partial "sass.html" (dict "context" . "src" "index.scss") }}
+  <title>Skye Im | Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
 {{ end }}
 
 {{ define "main" }}
-	<div id="content">{{ .Content }}</div>
-	{{ partial "page_gallery.html" (dict "context" . "pages" (.GetPage "/projects").Pages "hiddenTaxonomies" slice) }}
+  <div id="content">{{ .Content }}</div>
+  {{ partial "page_gallery.html" (dict "context" . "pages" (.GetPage "/projects").Pages "hiddenTaxonomies" slice) }}
 {{ end }}

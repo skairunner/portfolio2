@@ -1,44 +1,45 @@
 # technologies
+appveyor: AppVeyor
 bootstrap: Bootstrap
-c: C
-c-sharp: C#
 c++: C++
+c-sharp: C#
+c: C
+ci-cd: CI/CD
 d3: d3.js
 discord.py: discord.py
 django: Django
+docker: Docker
 dx11: DirectX 11
 elasticsearch: Elasticsearch
+gis: GIS
 javascript: Javascript
 jquery: jQuery
+kubernetes: Kubernetes
 libtcod: libtcod
+markdown: Markdown
 oauth2: OAuth 2
+posix: POSIX
 postgresql: Postgres
 python: Python
+react: React
+rust: Rust
+s3: Amazon S3
 selenium: Selenium
 sql: SQL
 three.js: three.js
-yarn: yarn
-markdown: Markdown
-ci-cd: CI/CD
-appveyor: AppVeyor
 typescript: Typescript
-gis: GIS
-react: React
-posix: POSIX
 unity: Unity
-kubernetes: Kubernetes
-docker: Docker
-s3: Amazon S3
+yarn: yarn
 
 # Categories
+devops: DevOps
 distributed-systems: Distributed systems
 educational: Educational
 full-stack: Full stack
 game-dev: Game dev
 graphics: Graphics
 infoviz: Infoviz
-simulation: Simulation
-web-dev: Web dev
 library: Library
+simulation: Simulation
 tool: Tool
-devops: DevOps
+web-dev: Web dev

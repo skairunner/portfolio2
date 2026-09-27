@@ -1,122 +1,122 @@
 @import "common";
 
 #mainwrapper {
-    border-top: $tile_border;
-    margin: 0 $border_width_margin;
+  border-top: $tile_border;
+  margin: 0 $border_width_margin;
 }
 
-#content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 2vh 2vw;
-    width: 100%;
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem 1rem 0;
+  width: 100%;
 }
 
 #main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+h2.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: $headingfont;
+}
+
+figure {
+  width: 100%;
+  max-width: 700px;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+
+  img {
     width: 100%;
+  }
 }
 
-.title {
-    font-size: 1.5em;
-    font-weight: bold;
-    font-family: $headingfont;
-    margin-bottom: 2vh;
-}
-
-.imageholder {
-    width: 100%;
-    max-width: 700px; 
-    padding-bottom: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.imageholder img {
-    width: 100%;
-}
-
-.caption {
-    font-style: italic;
-    font-size: .8em;
-    margin-bottom: 2vh;
-    color: #555;
+figcaption {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #555;
+  width: 100%;
+  text-align: center;
 }
 
 .explanation {
-    max-width: 800px;
+  max-width: 800px;
 }
 
 .linkbutton {
-    display: inline-block;
-    cursor: pointer;
-    width: 5em;
-    background-color: $accentcolor;
-    color: white;
-    border-radius: 3px;
-    text-align: center;
-    line-height: 1.7;
+  display: inline-block;
+  cursor: pointer;
+  width: 5em;
+  background-color: $accentcolor;
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 1.7;
 }
 
 .linkbutton:hover {
-    background-color: $accenthover;
+  background-color: $accenthover;
 }
 
 .sidebar {
-    padding-right: 1em;
-    max-width: 312px;
+  padding-right: 1em;
+  max-width: 312px;
 }
 
 .sidebarwrapper {
-    padding: 1em;
+  padding: 1em;
 }
 
 @media (max-width: 850px) {
-    .sidebarwrapper {
-        border-bottom: 1px solid $accentcolor;
-        border-top: 1px solid $accentcolor;
-        width: 80%;
-        max-width: 800px;
-        margin-top: 3vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #main {
-        flex-direction: column;
-    }
+  .sidebarwrapper {
+    border-bottom: 1px solid $accentcolor;
+    border-top: 1px solid $accentcolor;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #main {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 851px) {
-    .sidebar {
-        border-right: 1px solid $accentcolor;
-        margin-top: 1.2em;
-        padding-top: 4vh;
-        padding-bottom: 4vh;
-    }
-    #main {
-        flex-direction: row;
-    }
+  .sidebar {
+    border-right: 1px solid $accentcolor;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+  }
+  #main {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 2001px) {
-    body {
-        font-size: 24px;
-    }
+  body {
+    font-size: 24px;
+  }
 
-    .imageholder img {
-        max-width: initial;
-    }
+  .imageholder img {
+    max-width: initial;
+  }
 }
 
 #redirect {
-    height: 70vh;
+  height: 70vh;
 }
 
 .sidebar-element .pill {
-    background-color: #bf5c32;
+  background-color: $accentcolor;
 }

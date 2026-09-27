@@ -1,48 +1,58 @@
 @import "common";
 
 .projects {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(312px, auto));
-	grid-template-rows: repeat(auto-fit, minmax(312px, auto));
-	justify-items: center;
-	grid-column-gap: 2rem;
-	grid-row-gap: 2rem;
-	width: 100%;
-	margin: 0 1vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(312px, auto));
+  grid-template-rows: repeat(auto-fit, minmax(312px, auto));
+  justify-items: center;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  width: 100%;
+  margin: 0 1vw;
+  padding-bottom: 1rem;
 }
 
 .term {
-	width: 100%;
+  width: 100%;
 }
 
 .tile {
-	border-top: $tile_border;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  border-top: $tile_border;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 2vh 3vw;
-	min-width: 128px;
-	width: 100%;
-	max-width: 256px;
-	font-size: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2vh 3vw 0;
+  min-width: 128px;
+  width: 100%;
+  max-width: 280px;
+  font-size: 16px;
+}
+
+.project-tile-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project_name {
-	font-family: $headingfont;
-	font-size: 24px;
+  font-family: $headingfont;
+  font-size: 24px;
+  margin: 0;
 }
 
 .project_thumb img {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .project_summary {
-	text-align: center;
+  text-align: center;
 }

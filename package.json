@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@htnabe/prettier-plugin-go-template": "^0.0.3",
+    "@htnabe/prettier-plugin-hugo-post": "^0.0.2",
+    "prettier": "^3.9.9"
+  }
+}

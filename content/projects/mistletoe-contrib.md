@@ -2,7 +2,7 @@
 title: "Mistletoe"
 date: 2018-12-21T14:47:41-04:00
 
-caption: "Contributed \"Limited HTML\" renderer to Markdown parser"
+caption: 'Contributed "Limited HTML" renderer to Markdown parser'
 github: true
 githuburl: "https://github.com/skairunner/mistletoe/tree/dev"
 img: "mistletoe.thumb.png"

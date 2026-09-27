@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    "@htnabe/prettier-plugin-hugo-post",
+    "@htnabe/prettier-plugin-go-template"
+  ],
+  "overrides": [
+    {
+      "files": ["content/**/*.md", "**/*.md"],
+      "options": {
+        "parser": "hugo-post"
+      }
+    },
+    {
+      "files": ["layouts/**/*.html", "**/*.html"],
+      "options": {
+        "parser": "go-template"
+      }
+    }
+  ]
+}
