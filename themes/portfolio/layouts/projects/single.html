@@ -2,6 +2,17 @@
   {{ partial "sass.html" (dict "context" . "src" "project.scss") }}
   <title>{{ printf "%s %s" "Skye Im | " .Params.title }}</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta property="og:title" content="{{ .Params.title }}" />
+  <meta property="og:description" content="{{ .Params.summary }}" />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:image"
+    content="{{ printf "%s/%s" (os.Getenv "HUGO_ROOT") .Params.thumb }}"
+  />
+  <meta
+    property="og:url"
+    content="{{ printf "%s%s" (os.Getenv "HUGO_ROOT") .Page.Path }}"
+  />
 {{ end }}
 
 {{ define "main" }}
